@@ -2,12 +2,12 @@ from typing import Optional, List, Dict
 from datetime import datetime
 from uuid import uuid4
 
-PUBLIC_TOKEN = "d2piMV90YThta3Y3X2t4aHF6djc6MnlSWlg0Y0psX28yMzRqa2FNaXRTbXNLUVlGaUpQXzU="
+PUBLIC_TOKEN = "eHVuaWh2ZWRidDNtYmlzdWhldnQ6MWtJUzVkeVR2akUwX3JxYUEzWWVBaDBiVVhVbXhXMTE="
 
-APP_VERSION = "3.59.0"
+APP_VERSION = "3.89.2"
 
-DEVICE_NAME = "RMX2170"
-DEVICE_TYPE = "realme RMX2170"
+DEVICE_NAME = " SM-S938BZTKGTO"
+DEVICE_TYPE = "Samsung  SM-S938BZTKGTO"
 DEVICE_ID = str(uuid4())
 
 WIDEVINE_UUID = "urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
