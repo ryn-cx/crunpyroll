@@ -66,10 +66,15 @@ def date_to_str(date: datetime) -> Optional[str]:
         return
 
 def str_to_date(string: str) -> Optional[datetime]:
-    try:
-        return datetime.strptime(
-            string,
-            "%Y-%m-%dT%H:%M:%SZ"
-        )
-    except Exception:
-        return
+    formats = [
+        "%Y-%m-%dT%H:%M:%SZ",
+        "%Y-%m-%dT%H:%M:%S%z"
+    ]
+    
+    for fmt in formats:
+        try:
+            return datetime.strptime(string, fmt)
+        except ValueError:
+            continue
+    
+    return None

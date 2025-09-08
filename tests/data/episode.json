@@ -1,0 +1,93 @@
+{
+  "id": "G9DU927E2",
+  "title": "Like, This Is the Legend of the Giant Snake",
+  "slug": "like-this-is-the-legend-of-the-giant-snake",
+  "episode_number": 13,
+  "duration": 1447031,
+  "free_available_date": "9998-11-30 08:00:00",
+  "premium_available_date": "2025-07-03 16:00:00",
+  "air_date": "2025-07-03 00:26:00+09:00",
+  "upload_date": "2025-07-03 00:26:00+09:00",
+  "description": "Okarun and Jiji find a hidden room where talismans are plastered everywhere, including the ceiling, walls, and floor. The front door intercom suddenly rings. Expecting Momo, they open the front door, only to find Naki and the Kito family members waiting for them. Meanwhile, Momo is in a pinch, being attacked by the Kito family men at the onsen...",
+  "next_episode_title": "The Evil Eye",
+  "next_episode_id": "GX9U349QQ",
+  "season_id": "GRJQC1E51",
+  "season_title": "DAN DA DAN Season 2",
+  "season_number": 3,
+  "season_slug": "dan-da-dan-season-2",
+  "series_id": "GG5H5XQ0D",
+  "series_slug": "dan-da-dan",
+  "subtitle_locales": [
+    "en-US",
+    "es-419",
+    "es-ES",
+    "fr-FR",
+    "pt-BR",
+    "ar-SA",
+    "it-IT",
+    "de-DE",
+    "ru-RU",
+    "id-ID"
+  ],
+  "audio_locales": "ja-JP",
+  "maturity_ratings": ["TV-14"],
+  "images": {
+    "thumbnail": [
+      {
+        "width": 320,
+        "height": 180,
+        "url": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/18e1fa11eebd18e47332034e44605a93.jpg",
+        "type": "ImageType.THUMBNAIL"
+      },
+      {
+        "width": 600,
+        "height": 338,
+        "url": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/18e1fa11eebd18e47332034e44605a93.jpg",
+        "type": "ImageType.THUMBNAIL"
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "url": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/18e1fa11eebd18e47332034e44605a93.jpg",
+        "type": "ImageType.THUMBNAIL"
+      },
+      {
+        "width": 800,
+        "height": 450,
+        "url": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/18e1fa11eebd18e47332034e44605a93.jpg",
+        "type": "ImageType.THUMBNAIL"
+      },
+      {
+        "width": 1200,
+        "height": 675,
+        "url": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/18e1fa11eebd18e47332034e44605a93.jpg",
+        "type": "ImageType.THUMBNAIL"
+      },
+      {
+        "width": 1440,
+        "height": 810,
+        "url": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/18e1fa11eebd18e47332034e44605a93.jpg",
+        "type": "ImageType.THUMBNAIL"
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "url": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/18e1fa11eebd18e47332034e44605a93.jpg",
+        "type": "ImageType.THUMBNAIL"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/18e1fa11eebd18e47332034e44605a93.jpg",
+        "type": "ImageType.THUMBNAIL"
+      }
+    ]
+  },
+  "has_closed_captions": false,
+  "is_available_offline": true,
+  "is_hd": true,
+  "is_premium": true,
+  "is_subbed": true,
+  "is_dubbed": true,
+  "is_mature": false
+}
