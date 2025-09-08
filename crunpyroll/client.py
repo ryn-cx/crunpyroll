@@ -54,7 +54,6 @@ class Client(Object, Methods):
         device_id: str = DEVICE_ID,
         device_name: str = DEVICE_NAME,
         device_type: str = DEVICE_TYPE,
-        proxies: Union[Dict, str] = None
     ) -> None:
         self.email: str = email
         self.password: str = password
