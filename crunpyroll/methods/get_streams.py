@@ -1,7 +1,9 @@
 from crunpyroll import types
 from crunpyroll import enums
+from typing import Any
 
 import crunpyroll
+
 
 class GetStreams:
     async def download_streams(
@@ -9,7 +11,7 @@ class GetStreams:
         media_id: str,
         *,
         locale: str = None,
-    ) -> dict:
+    ) -> dict[str, Any]:
         """
         Download streams data of a media.
 
@@ -28,18 +30,13 @@ class GetStreams:
         response = await self.api_request(
             method="GET",
             endpoint="v1/" + media_id + "/android/phone/play",
-            params={
-                "locale": locale or self.locale,
-                "queue": False
-            },
-            host=enums.APIHost.PLAY_SERVICE
+            params={"locale": locale or self.locale, "queue": False},
+            host=enums.APIHost.PLAY_SERVICE,
         )
         return response
 
     def parse_streams(
-        self: "crunpyroll.Client",
-        response: dict,
-        media_id: str
+        self: "crunpyroll.Client", response: dict, media_id: str
     ) -> "types.MediaStreams":
         """
         Parse streams data into MediaStreams object.
@@ -49,7 +46,7 @@ class GetStreams:
                 Raw API response data.
             media_id (``str``):
                 Unique identifier of the media.
-                
+
         Returns:
             :obj:`~crunpyroll.types.MediaStreams`:
                 Parsed media streams object.

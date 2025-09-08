@@ -1,6 +1,8 @@
 from crunpyroll import types
+from typing import Any
 
 import crunpyroll
+
 
 class GetSeasons:
     async def download_seasons(
@@ -9,7 +11,7 @@ class GetSeasons:
         *,
         preferred_audio_language: str = None,
         locale: str = None,
-    ) -> dict:
+    ) -> dict[str, Any]:
         """
         Download seasons data from a series.
 
@@ -22,7 +24,7 @@ class GetSeasons:
             preferred_audio_language (``str``, *optional*):
                 Audio language request for different results.
                 Default to the one used in Client.
-                
+
         Returns:
             ``dict``:
                 Raw API response data.
@@ -32,15 +34,15 @@ class GetSeasons:
             method="GET",
             endpoint="content/v2/cms/series/" + series_id + "/seasons",
             params={
-                "preferred_audio_language": preferred_audio_language or self.preferred_audio_language,
-                "locale": locale or self.locale
-            }
+                "preferred_audio_language": preferred_audio_language
+                or self.preferred_audio_language,
+                "locale": locale or self.locale,
+            },
         )
         return response
 
     def parse_seasons(
-        self: "crunpyroll.Client",
-        response: dict
+        self: "crunpyroll.Client", response: dict
     ) -> "types.SeasonsQuery":
         """
         Parse seasons data into SeasonsQuery object.
@@ -48,7 +50,7 @@ class GetSeasons:
         Parameters:
             response (``dict``):
                 Raw API response data.
-                
+
         Returns:
             :obj:`~crunpyroll.types.SeasonsQuery`:
                 Parsed seasons query object.
@@ -74,10 +76,12 @@ class GetSeasons:
             preferred_audio_language (``str``, *optional*):
                 Audio language request for different results.
                 Default to the one used in Client.
-                
+
         Returns:
             :obj:`~crunpyroll.types.SeasonsQuery`:
                 On success, query of seasons is returned.
         """
-        response = await self.download_seasons(series_id, preferred_audio_language=preferred_audio_language, locale=locale)
+        response = await self.download_seasons(
+            series_id, preferred_audio_language=preferred_audio_language, locale=locale
+        )
         return self.parse_seasons(response)

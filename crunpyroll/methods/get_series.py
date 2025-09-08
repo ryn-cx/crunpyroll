@@ -1,6 +1,8 @@
 from crunpyroll import types
+from typing import Any
 
 import crunpyroll
+
 
 class GetSeries:
     async def download_series(
@@ -8,7 +10,7 @@ class GetSeries:
         series_id: str,
         *,
         locale: str = None,
-    ) -> dict:
+    ) -> dict[str, Any]:
         """
         Download series data.
 
@@ -27,23 +29,18 @@ class GetSeries:
         response = await self.api_request(
             method="GET",
             endpoint="content/v2/cms/series/" + series_id,
-            params={
-                "locale": locale or self.locale
-            }
+            params={"locale": locale or self.locale},
         )
         return response
 
-    def parse_series(
-        self: "crunpyroll.Client",
-        response: dict
-    ) -> "types.Series":
+    def parse_series(self: "crunpyroll.Client", response: dict) -> "types.Series":
         """
         Parse series data into Series object.
 
         Parameters:
             response (``dict``):
                 Raw API response data.
-                
+
         Returns:
             :obj:`~crunpyroll.types.Series`:
                 Parsed series object.

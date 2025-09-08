@@ -1,11 +1,13 @@
 from crunpyroll import types
+from typing import Any
 
 import crunpyroll
+
 
 class GetProfile:
     async def download_profile(
         self: "crunpyroll.Client",
-    ) -> dict:
+    ) -> dict[str, Any]:
         """
         Download current profile data.
 
@@ -20,17 +22,14 @@ class GetProfile:
         )
         return response
 
-    def parse_profile(
-        self: "crunpyroll.Client",
-        response: dict
-    ) -> "types.Profile":
+    def parse_profile(self: "crunpyroll.Client", response: dict) -> "types.Profile":
         """
         Parse profile data into Profile object.
 
         Parameters:
             response (``dict``):
                 Raw API response data.
-                
+
         Returns:
             :obj:`~crunpyroll.types.Profile`:
                 Parsed profile object.

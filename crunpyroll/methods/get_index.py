@@ -1,11 +1,13 @@
 from crunpyroll import types
+from typing import Any
 
 import crunpyroll
+
 
 class GetIndex:
     async def download_index(
         self: "crunpyroll.Client",
-    ) -> dict:
+    ) -> dict[str, Any]:
         """
         Download session index data.
 
@@ -20,17 +22,14 @@ class GetIndex:
         )
         return response
 
-    def parse_index(
-        self: "crunpyroll.Client",
-        response: dict
-    ) -> "types.SessionIndex":
+    def parse_index(self: "crunpyroll.Client", response: dict) -> "types.SessionIndex":
         """
         Parse index data into SessionIndex object.
 
         Parameters:
             response (``dict``):
                 Raw API response data.
-                
+
         Returns:
             :obj:`~crunpyroll.types.SessionIndex`:
                 Parsed session index object.

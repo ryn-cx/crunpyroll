@@ -1,14 +1,13 @@
 from crunpyroll import types
+from typing import Any
 
 import crunpyroll
 
+
 class GetEpisodes:
     async def download_episodes(
-        self: "crunpyroll.Client",
-        season_id: str,
-        *,
-        locale: str = None
-    ) -> dict:
+        self: "crunpyroll.Client", season_id: str, *, locale: str = None
+    ) -> dict[str, Any]:
         """
         Download episodes data from a season.
 
@@ -18,7 +17,7 @@ class GetEpisodes:
             locale (``str``, *optional*):
                 Localize request for different results.
                 Default to the one used in Client.
-                
+
         Returns:
             ``dict``:
                 Raw API response data.
@@ -27,15 +26,12 @@ class GetEpisodes:
         response = await self.api_request(
             method="GET",
             endpoint="content/v2/cms/seasons/" + season_id + "/episodes",
-            params={
-                "locale": locale or self.locale
-            }
+            params={"locale": locale or self.locale},
         )
         return response
 
     def parse_episodes(
-        self: "crunpyroll.Client",
-        response: dict
+        self: "crunpyroll.Client", response: dict
     ) -> "types.EpisodesQuery":
         """
         Parse episodes data into EpisodesQuery object.
@@ -43,7 +39,7 @@ class GetEpisodes:
         Parameters:
             response (``dict``):
                 Raw API response data.
-                
+
         Returns:
             :obj:`~crunpyroll.types.EpisodesQuery`:
                 Parsed episodes query object.
@@ -51,10 +47,7 @@ class GetEpisodes:
         return types.EpisodesQuery.parse(response)
 
     async def get_episodes(
-        self: "crunpyroll.Client",
-        season_id: str,
-        *,
-        locale: str = None
+        self: "crunpyroll.Client", season_id: str, *, locale: str = None
     ) -> "types.EpisodesQuery":
         """
         Get list of episodes from a season.
@@ -65,7 +58,7 @@ class GetEpisodes:
             locale (``str``, *optional*):
                 Localize request for different results.
                 Default to the one used in Client.
-                
+
         Returns:
             :obj:`~crunpyroll.types.EpisodesQuery`:
                 On success, query of episodes is returned.
