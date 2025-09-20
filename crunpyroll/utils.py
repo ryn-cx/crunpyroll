@@ -1,5 +1,5 @@
 from typing import Any
-from datetime import datetime
+from datetime import datetime, UTC
 from uuid import uuid4
 
 
@@ -53,7 +53,7 @@ def format_segment_url(url: str, obj: dict[Any, Any]) -> str:
 
 
 def get_date() -> datetime:
-    return datetime.utcnow()
+    return datetime.now(UTC)
 
 
 def date_to_str(date: datetime) -> str | None:
