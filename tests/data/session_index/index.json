@@ -1,0 +1,25 @@
+{
+  "cms": {
+    "bucket": "/US/M2/-",
+    "policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9iZXRhLWFwaS5jcnVuY2h5cm9sbC5jb20vY21zL3Y~L1VTL00yLy0vKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1ODQ2NDA1OH19fV19",
+    "signature": "RdBLrzNMSXQwXTWcI1XaTJpuzKmuKoV~b-PbSrqN0vfb-NHQDcQNQC5pinChd5m830lpbFC8GDZERvngfI-cSH2BQEtlKsMLETBuAFL3iWh3r6y8rvIdaOxaqqvOP8CFjvKfe1hGukIcRR0qp5unvgx~Csu7BrQ4Gg3Ic2xiVBepvetp4YIuH1~Ntcjo9kVWqfFQ96GVQ~YrAOovxSZE9ezcXrYKMs~c1o~4cx932WSbYF9WIqGtD6Q7hOfMsf7ocT38oXOcCfkUR1O4mx572KCVCDqkR~vF5zvDk6RsTvSEMlmx492nJFvW~qbO--uLmLT7tAGevWn3FZCN9clFsA__",
+    "key_pair_id": "APKAJMWSQ5S7ZB3MF5VA",
+    "expires": "2025-09-21T14:14:18Z"
+  },
+  "cms_beta": {
+    "bucket": "/US/M2/-",
+    "policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9iZXRhLmNydW5jaHlyb2xsLmNvbS9jbXMvdj8vVVMvTTIvLS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzU4NDY0MDU4fX19XX0_",
+    "signature": "acHBJSkjY4BmC9JMsh6yeKjSqijdO2y0nM8udPen-6D1NzOVVQ9nbYuqeDGHQAoghTRqF394CYFoqni5E7A9jKupsKszZq7BHNTbKjpFhMfarbaw7UxaX3zkpp3YX7-5NiBrCa1zom7-aj5kZc4Ql6mOtSDSvzUdWwH-qj38~prku-wsPfjTt940AcLSyomf~GQUuCoobR5YCr0-x~ibl~pWY~mDnY8r~UkzxzHWJO7bqtYU3WWuypJ-2Gx4~8vAIaSLIhMwiOnhHR~xF3fJxIenJ6wd0q0x5-VIf5pcJZ7d7kSG9Pbpmq0OUCNA25tullvSU9h6fVbuvRuTw7JswQ__",
+    "key_pair_id": "APKAJMWSQ5S7ZB3MF5VA",
+    "expires": "2025-09-21T14:14:18Z"
+  },
+  "cms_web": {
+    "bucket": "/US/M2/-",
+    "policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93d3cuY3J1bmNoeXJvbGwuY29tL2Ntcy92Py9VUy9NMi8tLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NTg0NjQwNTh9fX1dfQ__",
+    "signature": "JI8XLq9DYk-4rBSVH0nH5UXlbx7jWpTIxeJCqE3ndyU9zzty15A57nnuVR5Wk3g0w6iIUqE7EGlqss8gqslALvc32xXB1d-DJkG1tvlqwIMwLt37RRjYwX-sSgzfaKGLLJ99hlgkefXdE1L4otUJVko5ziDx0WElYVVEeZ5UifrI1nmW2S9jRH0xU5U6XC2KGjF03NOWef-K-zq-qJz14QlQBZyPWkBrdMxyX2p0ZA0O9PRWH1bBKNKIsMrfcdyZT4EhDVeUu1dy5KiEfVqE7Q80AwI7971NXmniyoBirQ5tnQ8WE-nloe545-aPQVn0XDp7ezctsvqPWZjtL8RGEg__",
+    "key_pair_id": "APKAJMWSQ5S7ZB3MF5VA",
+    "expires": "2025-09-21T14:14:18Z"
+  },
+  "service_available": true,
+  "default_marketing_opt_in": true
+}

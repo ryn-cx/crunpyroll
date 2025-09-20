@@ -1,3 +1,4 @@
+from .browse import Browse
 from .search import Search
 from .get_index import GetIndex
 from .get_profile import GetProfile
@@ -12,6 +13,7 @@ from .delete_active_stream import DeleteActiveStream
 
 
 class Methods(
+    Browse,
     Search,
     GetIndex,
     GetProfile,

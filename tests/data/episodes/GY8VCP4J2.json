@@ -1,0 +1,2264 @@
+{
+  "total": 11,
+  "data": [
+    {
+      "slug_title": "someones-dream",
+      "is_clip": false,
+      "availability_status": "premium_only",
+      "next_episode_id": "GN7UDVJWJ",
+      "episode_air_date": "2023-04-09T23:15:00+09:00",
+      "listing_id": "",
+      "episode_number": 1,
+      "seo_title": "",
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "season_number": 208,
+      "is_premium_only": true,
+      "is_dubbed": true,
+      "id": "GJWU2E1J7",
+      "eligible_region": "US",
+      "description": "An Upper Rank Demon has been defeated for the first time in a hundred years by Uzui, Tanjiro and his comrades' effort. This news causes a ripple effect not only among the members of the Demon Slayer Corps, but also the Upper Rank Demons, who have been summoned by Muzan Kibutsuji. Meanwhile, Tanjiro is recovering at the Butterfly Mansion when he discovers that he has upset his swordsmith Haganezuka after chipping his sword and decides to head to the village where the swordsmiths live to talk to him in person.",
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "series_id": "GY5P48XEY",
+      "production_episode_id": "",
+      "closed_captions_available": false,
+      "channel_id": "crunchyroll",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "season_tags": [
+        "spring-2023"
+      ],
+      "title": "Someone's Dream",
+      "available_date": null,
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GJWU2E1J7",
+          "is_premium_only": true,
+          "media_guid": "GM8FXG35M",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GZ7UV1X43",
+          "is_premium_only": true,
+          "media_guid": "G5JFZ145N",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "G14U49342",
+          "is_premium_only": true,
+          "media_guid": "GKKF3MZ3Q",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "GK9U3MZ3J",
+          "is_premium_only": true,
+          "media_guid": "G3WFXWPX1",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        }
+      ],
+      "audio_locale": "ja-JP",
+      "slug": "",
+      "duration_ms": 2965185,
+      "available_offline": true,
+      "season_id": "GY8VCP4J2",
+      "identifier": "GY5P48XEY|S3|E1",
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "season_sequence_number": 7,
+      "is_subbed": true,
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "next_episode_title": "Yoriichi Type Zero",
+      "upload_date": "2023-04-09T23:15:00+09:00",
+      "mature_blocked": false,
+      "media_type": "episode",
+      "recent_audio_locale": "ja-JP",
+      "season_display_number": "",
+      "episode": "1",
+      "seo_description": "",
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "premium_available_date": "2023-04-09T17:45:00Z",
+      "availability_notes": "",
+      "is_mature": false,
+      "hd_flag": true,
+      "recent_variant": "",
+      "sequence_number": 1,
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "roles": [
+        "main"
+      ],
+      "premium_date": null,
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/a48ee0d2c6a0ab747d2548aaf83ff5d6.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/a48ee0d2c6a0ab747d2548aaf83ff5d6.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/a48ee0d2c6a0ab747d2548aaf83ff5d6.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/a48ee0d2c6a0ab747d2548aaf83ff5d6.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/a48ee0d2c6a0ab747d2548aaf83ff5d6.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/a48ee0d2c6a0ab747d2548aaf83ff5d6.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/a48ee0d2c6a0ab747d2548aaf83ff5d6.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/a48ee0d2c6a0ab747d2548aaf83ff5d6.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 423597,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 847194,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1270791,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1694388,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 2117985,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 2541582,
+          "type": "midroll"
+        }
+      ]
+    },
+    {
+      "season_tags": [
+        "spring-2023"
+      ],
+      "season_sequence_number": 7,
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 358775,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 717550,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1076325,
+          "type": "midroll"
+        }
+      ],
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "next_episode_title": "A Sword from Over 300 Years Ago",
+      "availability_notes": "",
+      "channel_id": "crunchyroll",
+      "season_number": 208,
+      "season_id": "GY8VCP4J2",
+      "production_episode_id": "",
+      "title": "Yoriichi Type Zero",
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "premium_available_date": "2023-04-16T17:45:00Z",
+      "premium_date": null,
+      "description": "Tanjiro encounters Mist Hashira Muichiro Tokito and Kotetsu, a boy from the village, arguing. Muichiro is demanding that a \"certain key\" be handed over to him from Kotetsu. Being unable to look on in silence, Tanjiro intervenes to speak on behalf of Kotetsu, however Muichiro refuses to listen. According to Kotetsu, the key is used to operate a battle-type Mechanical Doll, Yoriichi Type Zero, that mimics the movement of a certain real-life swordsman...",
+      "recent_audio_locale": "ja-JP",
+      "media_type": "episode",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "closed_captions_available": false,
+      "id": "GN7UDVJWJ",
+      "is_premium_only": true,
+      "slug": "",
+      "slug_title": "yoriichi-type-zero",
+      "episode": "2",
+      "duration_ms": 1435102,
+      "is_dubbed": true,
+      "sequence_number": 2,
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "episode_air_date": "2023-04-16T23:15:00+09:00",
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "seo_title": "",
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "is_subbed": true,
+      "is_mature": false,
+      "seo_description": "",
+      "available_date": null,
+      "availability_status": "premium_only",
+      "series_id": "GY5P48XEY",
+      "season_display_number": "",
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "eligible_region": "US",
+      "listing_id": "",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GN7UDVJWJ",
+          "is_premium_only": true,
+          "media_guid": "GVMF042P2",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GQJUGQPJE",
+          "is_premium_only": true,
+          "media_guid": "GGVF2Z39D",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "GZ7UV2PWG",
+          "is_premium_only": true,
+          "media_guid": "G5JFZXE80",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "GD9UVQ249",
+          "is_premium_only": true,
+          "media_guid": "GWMF8EPNV",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        }
+      ],
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "roles": [
+        "main"
+      ],
+      "identifier": "GY5P48XEY|S3|E2",
+      "upload_date": "2023-04-16T23:15:00+09:00",
+      "available_offline": true,
+      "episode_number": 2,
+      "mature_blocked": false,
+      "recent_variant": "",
+      "is_clip": false,
+      "next_episode_id": "GK9U3DN83",
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/2cc41b4404ffa51d7b041c936d5d5a44.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/2cc41b4404ffa51d7b041c936d5d5a44.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/2cc41b4404ffa51d7b041c936d5d5a44.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/2cc41b4404ffa51d7b041c936d5d5a44.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/2cc41b4404ffa51d7b041c936d5d5a44.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/2cc41b4404ffa51d7b041c936d5d5a44.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/2cc41b4404ffa51d7b041c936d5d5a44.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/2cc41b4404ffa51d7b041c936d5d5a44.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "audio_locale": "ja-JP",
+      "hd_flag": true
+    },
+    {
+      "season_display_number": "",
+      "sequence_number": 3,
+      "id": "GK9U3DN83",
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "seo_description": "",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "audio_locale": "ja-JP",
+      "seo_title": "",
+      "recent_audio_locale": "ja-JP",
+      "identifier": "GY5P48XEY|S3|E3",
+      "media_type": "episode",
+      "title": "A Sword from Over 300 Years Ago",
+      "season_sequence_number": 7,
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "channel_id": "crunchyroll",
+      "slug_title": "a-sword-from-over-300-years-ago",
+      "recent_variant": "",
+      "is_subbed": true,
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GK9U3DN83",
+          "is_premium_only": true,
+          "media_guid": "G3WFXZ27X",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G7PU4JZ7N",
+          "is_premium_only": true,
+          "media_guid": "G4GFQ8J54",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "GEVUZXKPW",
+          "is_premium_only": true,
+          "media_guid": "GXMFQJ9D3",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "G7PU4M058",
+          "is_premium_only": true,
+          "media_guid": "G4GFQ1Z3D",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        }
+      ],
+      "duration_ms": 1435061,
+      "slug": "",
+      "episode_number": 3,
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "eligible_region": "US",
+      "premium_available_date": "2023-04-23T17:45:00Z",
+      "season_tags": [
+        "spring-2023"
+      ],
+      "available_offline": true,
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "description": "Yoriichi Type Zero is destroyed at the end of Tanjiro's training, but a sword from over 300 years ago appears from inside. Kotetsu gives Tanjiro the sword, however it is badly rusted. At that moment, Haganezuka appears and takes the sword with him to perform a grueling whetting process handed down within his family line. Meanwhile the presence of demons are inching closer to the village...",
+      "availability_status": "premium_only",
+      "next_episode_title": "Thank you, Tokito",
+      "season_number": 208,
+      "upload_date": "2023-04-23T23:15:00+09:00",
+      "roles": [
+        "main"
+      ],
+      "is_clip": false,
+      "mature_blocked": false,
+      "listing_id": "",
+      "is_mature": false,
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 1380020,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 206960,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 652000,
+          "type": "midroll"
+        }
+      ],
+      "next_episode_id": "GMKUXG35E",
+      "is_premium_only": true,
+      "season_id": "GY8VCP4J2",
+      "availability_notes": "",
+      "episode": "3",
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "available_date": null,
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/52f5d3062a611549da0d4160933fd632.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/52f5d3062a611549da0d4160933fd632.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/52f5d3062a611549da0d4160933fd632.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/52f5d3062a611549da0d4160933fd632.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/52f5d3062a611549da0d4160933fd632.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/52f5d3062a611549da0d4160933fd632.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/52f5d3062a611549da0d4160933fd632.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/52f5d3062a611549da0d4160933fd632.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "premium_date": null,
+      "is_dubbed": true,
+      "closed_captions_available": false,
+      "episode_air_date": "2023-04-23T23:15:00+09:00",
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "hd_flag": true,
+      "series_id": "GY5P48XEY",
+      "production_episode_id": ""
+    },
+    {
+      "series_id": "GY5P48XEY",
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/d2eb70fe2098c43f63e3d3ad5d4d440b.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/d2eb70fe2098c43f63e3d3ad5d4d440b.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/d2eb70fe2098c43f63e3d3ad5d4d440b.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/d2eb70fe2098c43f63e3d3ad5d4d440b.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/d2eb70fe2098c43f63e3d3ad5d4d440b.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/d2eb70fe2098c43f63e3d3ad5d4d440b.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/d2eb70fe2098c43f63e3d3ad5d4d440b.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/d2eb70fe2098c43f63e3d3ad5d4d440b.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "premium_date": null,
+      "eligible_region": "US",
+      "id": "GMKUXG35E",
+      "is_premium_only": true,
+      "episode": "4",
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "available_date": null,
+      "season_number": 208,
+      "is_dubbed": true,
+      "season_tags": [
+        "spring-2023"
+      ],
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "is_subbed": true,
+      "title": "Thank you, Tokito",
+      "mature_blocked": false,
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "availability_status": "premium_only",
+      "episode_number": 4,
+      "listing_id": "",
+      "hd_flag": true,
+      "is_mature": false,
+      "available_offline": true,
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "roles": [
+        "main"
+      ],
+      "duration_ms": 1435061,
+      "identifier": "GY5P48XEY|S3|E4",
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 171020,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 676000,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1380020,
+          "type": "midroll"
+        }
+      ],
+      "episode_air_date": "2023-04-30T23:15:00+09:00",
+      "audio_locale": "ja-JP",
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "production_episode_id": "",
+      "upload_date": "2023-04-30T23:15:00+09:00",
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GMKUXG35E",
+          "is_premium_only": true,
+          "media_guid": "GPPFKDX08",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GK9U3DXXP",
+          "is_premium_only": true,
+          "media_guid": "G3WFXZ99J",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "G0DUND1M9",
+          "is_premium_only": true,
+          "media_guid": "G9XFE5Q9D",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "GEVUZX2WG",
+          "is_premium_only": true,
+          "media_guid": "GXMFQJG37",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        }
+      ],
+      "sequence_number": 4,
+      "media_type": "episode",
+      "closed_captions_available": false,
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "seo_description": "",
+      "seo_title": "",
+      "availability_notes": "",
+      "channel_id": "crunchyroll",
+      "description": "Muichiro rescues Kotetsu who was being attacked by a goldfish demon. He tries to rush to the village where crisis is looming, however is asked by Kotetsu to rescue Haganezuka and Kanamori, so he begins heading their way instead. Meanwhile, Tanjiro, Nezuko and Genya are facing off against the demons who have split into four separate bodies. Separated from the rest, Tanjiro alone continues to fight a close battle with the demon with a mark of the word \"Joy\"...",
+      "recent_audio_locale": "ja-JP",
+      "season_id": "GY8VCP4J2",
+      "slug": "",
+      "season_display_number": "",
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "premium_available_date": "2023-04-30T17:35:00Z",
+      "season_sequence_number": 7,
+      "slug_title": "thank-you-tokito",
+      "is_clip": false,
+      "next_episode_id": "GVWU042P1",
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "next_episode_title": "Bright Red Sword",
+      "recent_variant": ""
+    },
+    {
+      "available_offline": true,
+      "availability_notes": "",
+      "season_number": 208,
+      "roles": [
+        "main"
+      ],
+      "production_episode_id": "",
+      "title": "Bright Red Sword",
+      "channel_id": "crunchyroll",
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "season_sequence_number": 7,
+      "identifier": "GY5P48XEY|S3|E5",
+      "next_episode_id": "G31UXZ27J",
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "mature_blocked": false,
+      "season_display_number": "",
+      "is_dubbed": true,
+      "is_premium_only": true,
+      "seo_description": "",
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/f5950727d3501221cd009fd837c63879.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/f5950727d3501221cd009fd837c63879.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/f5950727d3501221cd009fd837c63879.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/f5950727d3501221cd009fd837c63879.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/f5950727d3501221cd009fd837c63879.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/f5950727d3501221cd009fd837c63879.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/f5950727d3501221cd009fd837c63879.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/f5950727d3501221cd009fd837c63879.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "sequence_number": 5,
+      "availability_status": "premium_only",
+      "eligible_region": "US",
+      "duration_ms": 1435061,
+      "next_episode_title": "Aren\u2019t You Going to Become A Hashira?",
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "audio_locale": "ja-JP",
+      "premium_date": null,
+      "listing_id": "",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GVWU042P1",
+          "is_premium_only": true,
+          "media_guid": "G25F0DV59",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G50UZ1X9N",
+          "is_premium_only": true,
+          "media_guid": "G07FNJD1W",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "G9DUE5J20",
+          "is_premium_only": true,
+          "media_guid": "G1QF49DP7",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "GX9UQJXQ1",
+          "is_premium_only": true,
+          "media_guid": "GJKF2932N",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        }
+      ],
+      "hd_flag": true,
+      "premium_available_date": "2023-05-07T17:35:00Z",
+      "slug": "",
+      "slug_title": "bright-red-sword",
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 193950,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 592020,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1380020,
+          "type": "midroll"
+        }
+      ],
+      "available_date": null,
+      "season_tags": [
+        "spring-2023"
+      ],
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "upload_date": "2023-05-07T23:15:00+09:00",
+      "recent_variant": "",
+      "series_id": "GY5P48XEY",
+      "media_type": "episode",
+      "episode": "5",
+      "recent_audio_locale": "ja-JP",
+      "seo_title": "",
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "is_subbed": true,
+      "id": "GVWU042P1",
+      "closed_captions_available": false,
+      "is_mature": false,
+      "season_id": "GY8VCP4J2",
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "description": "Upon arriving to the village, Mitsuri rushes to the chief of the village, Tecchin, and finds that all of his guards have been defeated and he himself is in a life-or-death situation. Muichiro is being guided by Kanamori, whom he rescued along the way, to the studio to receive his sword. However, Upper Five Gyokko is waiting in front of the studio, where Haganezuka is also working...",
+      "is_clip": false,
+      "episode_air_date": "2023-05-07T23:15:00+09:00",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "episode_number": 5
+    },
+    {
+      "season_display_number": "",
+      "duration_ms": 1420046,
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "available_date": null,
+      "eligible_region": "US",
+      "recent_variant": "",
+      "episode": "6",
+      "availability_notes": "",
+      "is_subbed": true,
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "next_episode_id": "GPWUKDX03",
+      "seo_title": "",
+      "recent_audio_locale": "ja-JP",
+      "next_episode_title": "Awful Villain",
+      "is_mature": false,
+      "hd_flag": true,
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "mature_blocked": false,
+      "season_number": 208,
+      "title": "Aren\u2019t You Going to Become A Hashira?",
+      "available_offline": true,
+      "premium_available_date": "2023-05-14T17:35:00Z",
+      "is_dubbed": true,
+      "episode_air_date": "2023-05-14T23:15:00+09:00",
+      "season_sequence_number": 7,
+      "media_type": "episode",
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "roles": [
+        "main"
+      ],
+      "slug": "",
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/db1431dbc21b2441da691d36f7228bc9.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/db1431dbc21b2441da691d36f7228bc9.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/db1431dbc21b2441da691d36f7228bc9.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/db1431dbc21b2441da691d36f7228bc9.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/db1431dbc21b2441da691d36f7228bc9.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/db1431dbc21b2441da691d36f7228bc9.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/db1431dbc21b2441da691d36f7228bc9.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/db1431dbc21b2441da691d36f7228bc9.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "is_premium_only": true,
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "series_id": "GY5P48XEY",
+      "season_tags": [
+        "spring-2023"
+      ],
+      "description": "Muichiro is driven into a corner as he is trapped in water by Gyokko's Blood Demon Art amidst their battle. Meanwhile, Tanjiro and his comrades have successfully severed the necks of the four demons, but seeing that they haven't turned to dust, they realize that they cannot be defeated just by having their necks severed simultaneously. At that moment, Tanjiro senses the presence of a fifth demon as Genya aims for its neck...",
+      "id": "G31UXZ27J",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "identifier": "GY5P48XEY|S3|E6",
+      "premium_date": null,
+      "listing_id": "",
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 111000,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 686020,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1380000,
+          "type": "midroll"
+        }
+      ],
+      "audio_locale": "ja-JP",
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "slug_title": "arent-you-going-to-become-a-hashira",
+      "channel_id": "crunchyroll",
+      "upload_date": "2023-05-14T23:15:00+09:00",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G31UXZ27J",
+          "is_premium_only": true,
+          "media_guid": "G8MFN0P2Q",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GEVUZN7Q5",
+          "is_premium_only": true,
+          "media_guid": "GXMFQZE4N",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "GX9UQJXWN",
+          "is_premium_only": true,
+          "media_guid": "GJKF29304",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "G4VUQ19V3",
+          "is_premium_only": true,
+          "media_guid": "GNJFD2E1Z",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        }
+      ],
+      "closed_captions_available": false,
+      "episode_number": 6,
+      "season_id": "GY8VCP4J2",
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "production_episode_id": "",
+      "seo_description": "",
+      "availability_status": "premium_only",
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "sequence_number": 6,
+      "is_clip": false
+    },
+    {
+      "listing_id": "",
+      "title": "Awful Villain",
+      "slug_title": "awful-villain",
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 1380000,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 120960,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 599000,
+          "type": "midroll"
+        }
+      ],
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "is_clip": false,
+      "episode_air_date": "2023-05-21T23:15:00+09:00",
+      "is_premium_only": true,
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "sequence_number": 7,
+      "description": "As Tanjiro was just about to sever the neck of the fifth demon, another demon approaches from behind him. This demon turns out to be Zohakuten, a demon created by combining all four Emotion Demons into one body, marked with the word \"Hatred.\" Tanjiro makes a narrow escape from the attack and fails to sever the neck of the fifth demon. After hearing Zohakuten calling him and his comrades \"awful villains\" for trying to sever the neck of the cowering demon, Tanjiro is enraged and decides to face him...",
+      "eligible_region": "US",
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/f205ac623e9fc27d2f4659ebe11eee27.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/f205ac623e9fc27d2f4659ebe11eee27.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/f205ac623e9fc27d2f4659ebe11eee27.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/f205ac623e9fc27d2f4659ebe11eee27.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/f205ac623e9fc27d2f4659ebe11eee27.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/f205ac623e9fc27d2f4659ebe11eee27.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/f205ac623e9fc27d2f4659ebe11eee27.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/f205ac623e9fc27d2f4659ebe11eee27.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "available_date": null,
+      "season_display_number": "",
+      "seo_title": "",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "episode": "7",
+      "season_number": 208,
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "upload_date": "2023-05-21T23:15:00+09:00",
+      "identifier": "GY5P48XEY|S3|E7",
+      "availability_status": "premium_only",
+      "season_tags": [
+        "spring-2023"
+      ],
+      "audio_locale": "ja-JP",
+      "availability_notes": "",
+      "is_dubbed": true,
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "seo_description": "",
+      "recent_audio_locale": "ja-JP",
+      "is_subbed": true,
+      "episode_number": 7,
+      "closed_captions_available": false,
+      "duration_ms": 1435019,
+      "season_sequence_number": 7,
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GPWUKDX03",
+          "is_premium_only": true,
+          "media_guid": "GZ4FV1MPW",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G9DUE5ZM3",
+          "is_premium_only": true,
+          "media_guid": "G1QF49Q1M",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "GVWU0WKW5",
+          "is_premium_only": true,
+          "media_guid": "G25F04E4W",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "G31UXWGW1",
+          "is_premium_only": true,
+          "media_guid": "G8MFNGZGX",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        }
+      ],
+      "recent_variant": "",
+      "channel_id": "crunchyroll",
+      "media_type": "episode",
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "next_episode_title": "The Mu in Muichiro",
+      "premium_available_date": "2023-05-21T17:35:00Z",
+      "available_offline": true,
+      "premium_date": null,
+      "production_episode_id": "",
+      "id": "GPWUKDX03",
+      "slug": "",
+      "season_id": "GY8VCP4J2",
+      "is_mature": false,
+      "mature_blocked": false,
+      "roles": [
+        "main"
+      ],
+      "series_id": "GY5P48XEY",
+      "hd_flag": true,
+      "next_episode_id": "G2XU0DV5Z"
+    },
+    {
+      "duration_ms": 1450076,
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/61536e10daa916840d74a807a0747341.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/61536e10daa916840d74a807a0747341.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/61536e10daa916840d74a807a0747341.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/61536e10daa916840d74a807a0747341.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/61536e10daa916840d74a807a0747341.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/61536e10daa916840d74a807a0747341.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/61536e10daa916840d74a807a0747341.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/61536e10daa916840d74a807a0747341.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "episode": "8",
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "season_display_number": "",
+      "series_id": "GY5P48XEY",
+      "production_episode_id": "",
+      "available_offline": true,
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "is_clip": false,
+      "season_tags": [
+        "spring-2023"
+      ],
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "episode_air_date": "2023-05-28T23:15:00+09:00",
+      "available_date": null,
+      "listing_id": "",
+      "is_premium_only": true,
+      "is_dubbed": true,
+      "next_episode_title": "Mist Hashira Muichiro Tokito",
+      "audio_locale": "ja-JP",
+      "seo_title": "",
+      "channel_id": "crunchyroll",
+      "closed_captions_available": false,
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "media_type": "episode",
+      "availability_status": "premium_only",
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "id": "G2XU0DV5Z",
+      "premium_date": null,
+      "season_number": 208,
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "next_episode_id": "G8WUN0P2D",
+      "upload_date": "2023-05-28T23:15:00+09:00",
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "premium_available_date": "2023-05-28T17:35:00Z",
+      "identifier": "GY5P48XEY|S3|E8",
+      "description": "With Kotetsu's help, Muichiro finally manages to escape from Gyokko's Blood Demon Art, but he is close to reaching his limit with all of the damage he has sustained. As the goldfish demons draw closer to the battered Muichiro and Kotetsu, Muichiro's memory is awakened the very moment the demons attack. In this memory, he remembers his father, a lumberman, his mother, and his older twin brother, Yuichiro...",
+      "hd_flag": true,
+      "title": "The Mu in Muichiro",
+      "recent_variant": "",
+      "roles": [
+        "main"
+      ],
+      "sequence_number": 8,
+      "seo_description": "",
+      "mature_blocked": false,
+      "is_subbed": true,
+      "availability_notes": "",
+      "season_sequence_number": 7,
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "recent_audio_locale": "ja-JP",
+      "is_mature": false,
+      "slug": "",
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 454970,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1400050,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 153000,
+          "type": "midroll"
+        }
+      ],
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G2XU0DV5Z",
+          "is_premium_only": true,
+          "media_guid": "GDVFV8G24",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GVWU0WXW2",
+          "is_premium_only": true,
+          "media_guid": "G25F0414V",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "G4VUQ180G",
+          "is_premium_only": true,
+          "media_guid": "GNJFD2VK8",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "G14U49GJ8",
+          "is_premium_only": true,
+          "media_guid": "GKKF3MD27",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        }
+      ],
+      "slug_title": "the-mu-in-muichiro",
+      "episode_number": 8,
+      "season_id": "GY8VCP4J2",
+      "eligible_region": "US"
+    },
+    {
+      "next_episode_title": "Love Hashira Mitsuri Kanroji",
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "slug": "",
+      "upload_date": "2023-06-04T23:15:00+09:00",
+      "seo_title": "",
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "available_offline": true,
+      "channel_id": "crunchyroll",
+      "next_episode_id": "GZ7UV1MPP",
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G8WUN0P2D",
+          "is_premium_only": true,
+          "media_guid": "GQ9FGQZED",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GPWUKZXQW",
+          "is_premium_only": true,
+          "media_guid": "GZ4FV2M7N",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "GZ7UV22Q4",
+          "is_premium_only": true,
+          "media_guid": "G5JFZXXK5",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "GQJUGVVNV",
+          "is_premium_only": true,
+          "media_guid": "GGVF244W4",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        }
+      ],
+      "mature_blocked": false,
+      "episode": "9",
+      "production_episode_id": "",
+      "is_premium_only": true,
+      "season_number": 208,
+      "title": "Mist Hashira Muichiro Tokito",
+      "available_date": null,
+      "availability_status": "premium_only",
+      "roles": [
+        "main"
+      ],
+      "eligible_region": "US",
+      "is_mature": false,
+      "seo_description": "",
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "season_sequence_number": 7,
+      "season_id": "GY8VCP4J2",
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "media_type": "episode",
+      "audio_locale": "ja-JP",
+      "is_subbed": true,
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "listing_id": "",
+      "recent_variant": "",
+      "id": "G8WUN0P2D",
+      "slug_title": "mist-hashira-muichiro-tokito",
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "hd_flag": true,
+      "season_tags": [
+        "spring-2023"
+      ],
+      "episode_number": 9,
+      "series_id": "GY5P48XEY",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "availability_notes": "",
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/1527a6ffeb75310933af90046a6e6ab8.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/1527a6ffeb75310933af90046a6e6ab8.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/1527a6ffeb75310933af90046a6e6ab8.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/1527a6ffeb75310933af90046a6e6ab8.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1527a6ffeb75310933af90046a6e6ab8.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/1527a6ffeb75310933af90046a6e6ab8.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/1527a6ffeb75310933af90046a6e6ab8.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/1527a6ffeb75310933af90046a6e6ab8.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "closed_captions_available": false,
+      "season_display_number": "",
+      "episode_air_date": "2023-06-04T23:15:00+09:00",
+      "is_dubbed": true,
+      "is_clip": false,
+      "sequence_number": 9,
+      "recent_audio_locale": "ja-JP",
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "identifier": "GY5P48XEY|S3|E9",
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 114000,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 770070,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1382020,
+          "type": "midroll"
+        }
+      ],
+      "description": "After defeating the goldfish demons, Muichiro heads to the studio where Haganezuka and Kanamori are. There, in order to disrupt Haganezuka's focus on whetting the sword, Gyokko was attempting to take Kanamori for hostage. Muichiro arrives in the nick of time, receives the Nichirin Sword from Kanamori, and challenges Gyokko once again...",
+      "duration_ms": 1420087,
+      "premium_date": null,
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "premium_available_date": "2023-06-04T17:35:00Z"
+    },
+    {
+      "is_mature": false,
+      "is_subbed": true,
+      "slug_title": "love-hashira-mitsuri-kanroji",
+      "season_sequence_number": 7,
+      "roles": [
+        "main"
+      ],
+      "episode_air_date": "2023-06-11T23:15:00+09:00",
+      "recent_audio_locale": "ja-JP",
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "id": "GZ7UV1MPP",
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "season_tags": [
+        "spring-2023"
+      ],
+      "seo_title": "",
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GZ7UV1MPP",
+          "is_premium_only": true,
+          "media_guid": "G5JFZ1DEE",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G7PU4M4N8",
+          "is_premium_only": true,
+          "media_guid": "G4GFQ1Q4D",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "GD9UVQ3VX",
+          "is_premium_only": true,
+          "media_guid": "GWMF8EJ8D",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "GZ7UV2EVZ",
+          "is_premium_only": true,
+          "media_guid": "G5JFZXVZQ",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        }
+      ],
+      "production_episode_id": "",
+      "closed_captions_available": false,
+      "availability_notes": "",
+      "next_episode_id": "GD9UV8G2W",
+      "season_number": 208,
+      "episode_number": 10,
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "slug": "",
+      "eligible_region": "US",
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "duration_ms": 1435102,
+      "channel_id": "crunchyroll",
+      "description": "After rescuing Tanjiro who was swallowed by one of the tree dragons, Mitsuri now faces off against Zohakuten in order to save Nezuko and Genya. Mitsuri skillfully fends off the fierce attacks from the tree dragons, but she is struck with a powerful attack from Zohakuten and loses consciousness right before she is able to land a decisive blow. As a killer blow is about to strike down on her, Mitsuri recalls a memory of her past self and her special constitution...",
+      "hd_flag": true,
+      "series_title": "Demon Slayer: Kimetsu no Yaiba",
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "media_type": "episode",
+      "availability_status": "premium_only",
+      "series_id": "GY5P48XEY",
+      "title": "Love Hashira Mitsuri Kanroji",
+      "recent_variant": "",
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 131000,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 745000,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1380050,
+          "type": "midroll"
+        }
+      ],
+      "available_date": null,
+      "is_dubbed": true,
+      "is_premium_only": true,
+      "sequence_number": 10,
+      "premium_available_date": "2023-06-11T17:35:00Z",
+      "is_clip": false,
+      "seo_description": "",
+      "season_display_number": "",
+      "episode": "10",
+      "mature_blocked": false,
+      "audio_locale": "ja-JP",
+      "available_offline": true,
+      "upload_date": "2023-06-11T23:15:00+09:00",
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "premium_date": null,
+      "season_id": "GY8VCP4J2",
+      "next_episode_title": "A Connected Bond: Daybreak and First Light",
+      "listing_id": "",
+      "identifier": "GY5P48XEY|S3|E10",
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/0f0306284d8c20b99259ecd5bf3b62a3.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/0f0306284d8c20b99259ecd5bf3b62a3.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/0f0306284d8c20b99259ecd5bf3b62a3.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/0f0306284d8c20b99259ecd5bf3b62a3.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/0f0306284d8c20b99259ecd5bf3b62a3.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/0f0306284d8c20b99259ecd5bf3b62a3.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/0f0306284d8c20b99259ecd5bf3b62a3.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/0f0306284d8c20b99259ecd5bf3b62a3.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      }
+    },
+    {
+      "seo_title": "",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GD9UV8G2W",
+          "is_premium_only": true,
+          "media_guid": "GWMF8Q3PK",
+          "original": true,
+          "roles": [
+            "main"
+          ],
+          "season_guid": "GY8VCP4J2",
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GD9UVQVM0",
+          "is_premium_only": true,
+          "media_guid": "GWMF8E82Z",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GRK5CN0P7",
+          "variant": ""
+        },
+        {
+          "audio_locale": "pt-BR",
+          "guid": "GN7UD211Q",
+          "is_premium_only": true,
+          "media_guid": "GVMF0W77K",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "GR49C7J4W",
+          "variant": ""
+        },
+        {
+          "audio_locale": "es-419",
+          "guid": "GK9U3MKKX",
+          "is_premium_only": true,
+          "media_guid": "G3WFXW449",
+          "original": false,
+          "roles": [
+            "dub"
+          ],
+          "season_guid": "G6X0C4G8Q",
+          "variant": ""
+        }
+      ],
+      "season_sequence_number": 7,
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "is_subbed": true,
+      "episode": "11",
+      "listing_id": "",
+      "media_type": "episode",
+      "season_number": 208,
+      "channel_id": "crunchyroll",
+      "episode_number": 11,
+      "season_slug_title": "demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc",
+      "ad_breaks": [
+        {
+          "offset_ms": 0,
+          "type": "preroll"
+        },
+        {
+          "offset_ms": 185950,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 785960,
+          "type": "midroll"
+        },
+        {
+          "offset_ms": 1759000,
+          "type": "midroll"
+        }
+      ],
+      "available_date": null,
+      "available_offline": true,
+      "title": "A Connected Bond: Daybreak and First Light",
+      "mature_blocked": false,
+      "premium_date": null,
+      "audio_locale": "ja-JP",
+      "roles": [
+        "main"
+      ],
+      "slug": "",
+      "next_episode_title": "To Defeat Muzan Kibutsuji",
+      "availability_status": "premium_only",
+      "images": {
+        "thumbnail": [
+          [
+            {
+              "height": 180,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/d8fac42abdf05f57fe00994af96b84ac.jpg",
+              "type": "thumbnail",
+              "width": 320
+            },
+            {
+              "height": 338,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/600x338/catalog/crunchyroll/d8fac42abdf05f57fe00994af96b84ac.jpg",
+              "type": "thumbnail",
+              "width": 600
+            },
+            {
+              "height": 360,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/d8fac42abdf05f57fe00994af96b84ac.jpg",
+              "type": "thumbnail",
+              "width": 640
+            },
+            {
+              "height": 450,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/800x450/catalog/crunchyroll/d8fac42abdf05f57fe00994af96b84ac.jpg",
+              "type": "thumbnail",
+              "width": 800
+            },
+            {
+              "height": 675,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/d8fac42abdf05f57fe00994af96b84ac.jpg",
+              "type": "thumbnail",
+              "width": 1200
+            },
+            {
+              "height": 810,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1440x810/catalog/crunchyroll/d8fac42abdf05f57fe00994af96b84ac.jpg",
+              "type": "thumbnail",
+              "width": 1440
+            },
+            {
+              "height": 900,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1600x900/catalog/crunchyroll/d8fac42abdf05f57fe00994af96b84ac.jpg",
+              "type": "thumbnail",
+              "width": 1600
+            },
+            {
+              "height": 1080,
+              "source": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1920x1080/catalog/crunchyroll/d8fac42abdf05f57fe00994af96b84ac.jpg",
+              "type": "thumbnail",
+              "width": 1920
+            }
+          ]
+        ]
+      },
+      "availability_ends": "2025-06-01T07:00:00Z",
+      "is_clip": false,
+      "season_id": "GY8VCP4J2",
+      "is_mature": false,
+      "is_dubbed": true,
+      "availability_notes": "",
+      "recent_variant": "",
+      "episode_air_date": "2023-06-18T23:15:00+09:00",
+      "hd_flag": true,
+      "identifier": "GY5P48XEY|S3|E11",
+      "availability_starts": "2024-01-17T17:00:00Z",
+      "extended_maturity_rating": {
+        "level": "M2",
+        "rating": "16",
+        "system": "cr-tv"
+      },
+      "free_available_date": "2024-01-17T17:00:00Z",
+      "sequence_number": 11,
+      "closed_captions_available": false,
+      "eligible_region": "US",
+      "description": "As Mitsuri holds off Zohakuten, Tanjiro, Nezuko and Genya use this time to chase after Hantengu's main body. The three manage to find the tree ball that Hantengu is hiding in, but when they slice it open, they find that it is completely empty. Hantengu makes a run for it again, and Tanjiro and the others continue chasing him. Seeing Hantengu running about, Genya snaps and hurls a tree at him, and Nezuko jumps at him!",
+      "slug_title": "a-connected-bond-daybreak-and-first-light",
+      "upload_date": "2023-06-18T23:15:00+09:00",
+      "duration_ms": 3118955,
+      "is_premium_only": true,
+      "recent_audio_locale": "ja-JP",
+      "production_episode_id": "",
+      "series_id": "GY5P48XEY",
+      "season_display_number": "",
+      "season_title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "id": "GD9UV8G2W",
+      "content_descriptors": [
+        "Suicide",
+        "Violence"
+      ],
+      "premium_available_date": "2023-06-18T17:45:00Z",
+      "seo_description": "",
+      "series_slug_title": "demon-slayer-kimetsu-no-yaiba",
+      "next_episode_id": "GQJUG5WZ5",
+      "season_tags": [
+        "spring-2023"
+      ],
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "fr-FR",
+        "pt-BR",
+        "ar-SA",
+        "it-IT",
+        "de-DE",
+        "ru-RU",
+        "hi-IN"
+      ],
+      "series_title": "Demon Slayer: Kimetsu no Yaiba"
+    }
+  ],
+  "meta": {
+    "versions_considered": true
+  }
+}

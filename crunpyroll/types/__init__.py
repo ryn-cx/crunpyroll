@@ -14,3 +14,4 @@ from .hardsub import HardsubStream
 from .objects import ObjectsQuery
 from .manifest import Manifest, ManifestVideoStream, ManifestAudioStream
 from .drm import DRM, ContentProtection
+from .browse import BrowseQuery

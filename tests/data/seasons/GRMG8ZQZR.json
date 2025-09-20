@@ -1,0 +1,1804 @@
+{
+  "data": [
+    {
+      "id": "GYVNM8476",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: East Blue (1-61)",
+      "slug_title": "one-piece-east-blue-1-61",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "1",
+      "season_sequence_number": 1,
+      "season_number": 1,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "pt-BR"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GYVNM8476",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GYNQCJ9G1",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S1",
+      "number_of_episodes": 61
+    },
+    {
+      "id": "GY3VWX3MR",
+      "channel_id": "crunchyroll",
+      "title": "One Piece Special Edition (HD, Subtitled): East Blue (1-61)",
+      "slug_title": "one-piece-special-edition-hd-subtitled-east-blue-1-61",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "1",
+      "season_sequence_number": 2,
+      "season_number": 1,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "pt-BR"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GY3VWX3MR",
+          "original": true,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S1HD",
+      "number_of_episodes": 61
+    },
+    {
+      "id": "G6P8PQ7M6",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Alabasta (62-135)",
+      "slug_title": "one-piece-alabasta-62-135",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "2",
+      "season_sequence_number": 3,
+      "season_number": 2,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "es-ES",
+        "pt-BR",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G6P8PQ7M6",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G6K5CN0QE",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S2",
+      "number_of_episodes": 74
+    },
+    {
+      "id": "GY19QP57R",
+      "channel_id": "crunchyroll",
+      "title": "One Piece Special Edition (HD, Subtitled): Alabasta (62-135)",
+      "slug_title": "one-piece-special-edition-hd-subtitled-alabasta-62-135",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "2",
+      "season_sequence_number": 4,
+      "season_number": 2,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "pt-BR"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GY19QP57R",
+          "original": true,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S2HD",
+      "number_of_episodes": 74
+    },
+    {
+      "id": "GRVNM78ZY",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Sky Island (136-206)",
+      "slug_title": "one-piece-sky-island-136-206",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "3",
+      "season_sequence_number": 5,
+      "season_number": 3,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-ES",
+        "pt-BR",
+        "en-US",
+        "es-419"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GRVNM78ZY",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G6MGC3789",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S3",
+      "number_of_episodes": 71
+    },
+    {
+      "id": "GYWEM933Y",
+      "channel_id": "crunchyroll",
+      "title": "One Piece Special Edition (HD, Subtitled): Sky Island (136-206)",
+      "slug_title": "one-piece-special-edition-hd-subtitled-sky-island-136-206",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "3",
+      "season_sequence_number": 6,
+      "season_number": 3,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": false,
+      "is_dubbed": false,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-ES",
+        "pt-BR",
+        "en-US",
+        "es-419"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GYWEM933Y",
+          "original": true,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S3HD",
+      "number_of_episodes": 71
+    },
+    {
+      "id": "GY5VJ4KQY",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Water 7 (207-325)",
+      "slug_title": "one-piece-water-7-207-325",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "4",
+      "season_sequence_number": 8,
+      "season_number": 4,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "pt-BR",
+        "es-ES",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GY5VJ4KQY",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GRVNC25QX",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S4",
+      "number_of_episodes": 119
+    },
+    {
+      "id": "GYE5M421R",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Thriller Bark (326-384)",
+      "slug_title": "one-piece-thriller-bark-326-384",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "5",
+      "season_sequence_number": 9,
+      "season_number": 5,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "en-US",
+        "es-419",
+        "es-ES",
+        "pt-BR"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GYE5M421R",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G63VC2D02",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S5",
+      "number_of_episodes": 59
+    },
+    {
+      "id": "G6X0MWV7Y",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Summit War (385-516)",
+      "slug_title": "one-piece-summit-war-385-516",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "6",
+      "season_sequence_number": 10,
+      "season_number": 6,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "es-ES",
+        "pt-BR",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G6X0MWV7Y",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G6P8CX41K",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S6",
+      "number_of_episodes": 132
+    },
+    {
+      "id": "GRP8PE35R",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Fishman Island (517-574)",
+      "slug_title": "one-piece-fishman-island-517-574",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "7",
+      "season_sequence_number": 11,
+      "season_number": 7,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "en-US",
+        "pt-BR",
+        "es-ES",
+        "es-419"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GRP8PE35R",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GR2PCVW8N",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S7",
+      "number_of_episodes": 58
+    },
+    {
+      "id": "G69PXQ7EY",
+      "channel_id": "crunchyroll",
+      "title": "One Piece \"3D2Y\"",
+      "slug_title": "one-piece-3d2y",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "",
+      "season_sequence_number": 12,
+      "season_number": 12,
+      "is_complete": false,
+      "description": "",
+      "keywords": [
+        "movie"
+      ],
+      "season_tags": [
+        "summer-2014"
+      ],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "pt-BR",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G69PXQ7EY",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GYZXCMZN0",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|OVA",
+      "number_of_episodes": 3
+    },
+    {
+      "id": "G63VWN2WY",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Punk Hazard (575-629)",
+      "slug_title": "one-piece-punk-hazard-575-629",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "8",
+      "season_sequence_number": 13,
+      "season_number": 8,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-ES",
+        "en-US",
+        "es-419",
+        "pt-BR"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G63VWN2WY",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GY8VCP845",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S8",
+      "number_of_episodes": 54
+    },
+    {
+      "id": "GYGGVE07Y",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Dressrosa (630-699)",
+      "slug_title": "one-piece-dressrosa-630-699",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "9",
+      "season_sequence_number": 14,
+      "season_number": 9,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "pt-BR",
+        "es-419",
+        "en-US",
+        "es-ES"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GYGGVE07Y",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GRZXCM805",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S9",
+      "number_of_episodes": 70
+    },
+    {
+      "id": "GYJQKXG46",
+      "channel_id": "crunchyroll",
+      "title": "One Piece - Episode of Sabo",
+      "slug_title": "one-piece---episode-of-sabo",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "",
+      "season_sequence_number": 15,
+      "season_number": 15,
+      "is_complete": false,
+      "description": "",
+      "keywords": [
+        "movie"
+      ],
+      "season_tags": [
+        "summer-2015"
+      ],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "pt-BR",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GYJQKXG46",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GYDQCG54J",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|SP1",
+      "number_of_episodes": 1
+    },
+    {
+      "id": "GYMG8J7WY",
+      "channel_id": "crunchyroll",
+      "title": "One Piece - Adventure of Nebulandia",
+      "slug_title": "one-piece---adventure-of-nebulandia",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "",
+      "season_sequence_number": 18,
+      "season_number": 18,
+      "is_complete": false,
+      "description": "",
+      "keywords": [
+        "movie"
+      ],
+      "season_tags": [
+        "fall-2015"
+      ],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "en-US",
+        "pt-BR"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GYMG8J7WY",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GRQ4CZK4J",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|SP2",
+      "number_of_episodes": 1
+    },
+    {
+      "id": "GR5V1MVKR",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Dressrosa (700-746)",
+      "slug_title": "one-piece-dressrosa-700-746",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "9",
+      "season_sequence_number": 19,
+      "season_number": 9,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "es-ES",
+        "pt-BR",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GR5V1MVKR",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GRDQCGJP1",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S10",
+      "number_of_episodes": 47
+    },
+    {
+      "id": "G6WE8NE26",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Silver Mine (747-750)",
+      "slug_title": "one-piece-silver-mine-747-750",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "10",
+      "season_sequence_number": 20,
+      "season_number": 10,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "en-US",
+        "es-ES",
+        "pt-BR"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G6WE8NE26",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G6Q4CZ1P4",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S11",
+      "number_of_episodes": 4
+    },
+    {
+      "id": "G63VWQWEY",
+      "channel_id": "crunchyroll",
+      "title": "One Piece - Heart of Gold",
+      "slug_title": "one-piece---heart-of-gold",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "",
+      "season_sequence_number": 22,
+      "season_number": 22,
+      "is_complete": false,
+      "description": "",
+      "keywords": [
+        "type:movie"
+      ],
+      "season_tags": [
+        "summer-2016"
+      ],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "pt-BR",
+        "en-US",
+        "es-419"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G63VWQWEY",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GR5VCDQJQ",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|SP3",
+      "number_of_episodes": 1
+    },
+    {
+      "id": "G6GGZMGP6",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Zou (751-782)",
+      "slug_title": "one-piece-zou-751-782",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "10",
+      "season_sequence_number": 24,
+      "season_number": 10,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "es-ES",
+        "pt-BR",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G6GGZMGP6",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G65VCD972",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S12",
+      "number_of_episodes": 32
+    },
+    {
+      "id": "GYG5EPK5Y",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Whole Cake Island (783-878)",
+      "slug_title": "one-piece-whole-cake-island-783-878",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "11",
+      "season_sequence_number": 26,
+      "season_number": 11,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "es-ES",
+        "pt-BR",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GYG5EPK5Y",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GYWEC3W5P",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S13",
+      "number_of_episodes": 96
+    },
+    {
+      "id": "GY75N3546",
+      "channel_id": "crunchyroll",
+      "title": "One Piece - Episode of East Blue",
+      "slug_title": "one-piece---episode-of-east-blue",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "",
+      "season_sequence_number": 28,
+      "season_number": 28,
+      "is_complete": false,
+      "description": "",
+      "keywords": [
+        "movie"
+      ],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "pt-BR",
+        "en-US",
+        "es-419"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GY75N3546",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G6WEC31ND",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|SP4",
+      "number_of_episodes": 1
+    },
+    {
+      "id": "G6NVVEP9Y",
+      "channel_id": "crunchyroll",
+      "title": "One Piece - Episode of Skypiea",
+      "slug_title": "one-piece---episode-of-skypiea",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "",
+      "season_sequence_number": 30,
+      "season_number": 30,
+      "is_complete": false,
+      "description": "",
+      "keywords": [
+        "movie"
+      ],
+      "season_tags": [
+        "summer-2018"
+      ],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "pt-BR",
+        "en-US",
+        "es-419"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "G6NVVEP9Y",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G6GGCV87Z",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|SP5",
+      "number_of_episodes": 1
+    },
+    {
+      "id": "GR0X5QW7Y",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Reverie (879-891)",
+      "slug_title": "one-piece-reverie-879-891",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "12",
+      "season_sequence_number": 32,
+      "season_number": 12,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-419",
+        "pt-BR",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GR0X5QW7Y",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "GYGGCVQ3E",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S14",
+      "number_of_episodes": 13
+    },
+    {
+      "id": "GY8VCPXXM",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: WANO KUNI (892-1088)",
+      "slug_title": "one-piece-wano-kuni-892-1088",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "13",
+      "season_sequence_number": 34,
+      "season_number": 13,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "pt-BR",
+        "es-419",
+        "es-ES",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "en-US",
+          "guid": "GR75CD0D0",
+          "original": false,
+          "variant": ""
+        },
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GY8VCPXXM",
+          "original": true,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S15",
+      "number_of_episodes": 208
+    },
+    {
+      "id": "GY9PC23X0",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Egghead Island (1089-1122)",
+      "slug_title": "one-piece-egghead-island-1089-1122",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "14",
+      "season_sequence_number": 35,
+      "season_number": 14,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "pt-BR",
+        "en-US",
+        "es-ES",
+        "es-419"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "en-US",
+          "guid": "G6Q4CZK5E",
+          "original": false,
+          "variant": ""
+        },
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GY9PC23X0",
+          "original": true,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S16",
+      "number_of_episodes": 39
+    },
+    {
+      "id": "GYP8CXGMD",
+      "channel_id": "crunchyroll",
+      "title": "ONE PIECE FAN LETTER",
+      "slug_title": "one-piece-fan-letter",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "",
+      "season_sequence_number": 36,
+      "season_number": 36,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": false,
+      "is_dubbed": false,
+      "is_simulcast": true,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "pt-BR",
+        "es-419",
+        "es-ES",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GYP8CXGMD",
+          "original": true,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|25SP",
+      "number_of_episodes": 1
+    },
+    {
+      "id": "GY8VCP03Q",
+      "channel_id": "crunchyroll",
+      "title": "One Piece Log: Fish-Man Island Saga",
+      "slug_title": "one-piece-log-fish-man-island-saga",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "",
+      "season_sequence_number": 37,
+      "season_number": 37,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": false,
+      "is_dubbed": false,
+      "is_simulcast": false,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-ES",
+        "pt-BR",
+        "es-419",
+        "en-US"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GY8VCP03Q",
+          "original": true,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|FMI",
+      "number_of_episodes": 21
+    },
+    {
+      "id": "GYP8PM4KY",
+      "channel_id": "crunchyroll",
+      "title": "One Piece: Egghead Island (1123-Current)",
+      "slug_title": "one-piece-egghead-island-1123-current",
+      "series_id": "GRMG8ZQZR",
+      "season_display_number": "14",
+      "season_sequence_number": 38,
+      "season_number": 14,
+      "is_complete": false,
+      "description": "",
+      "keywords": [],
+      "season_tags": [
+        "fall-2013",
+        "winter-2014",
+        "spring-2014",
+        "summer-2014",
+        "fall-2014",
+        "winter-2015",
+        "spring-2015",
+        "summer-2015",
+        "fall-2015",
+        "winter-2016",
+        "spring-2016",
+        "summer-2016",
+        "fall-2016",
+        "winter-2017",
+        "spring-2017",
+        "summer-2017",
+        "fall-2017",
+        "winter-2018",
+        "spring-2018",
+        "summer-2018",
+        "fall-2018",
+        "winter-2019",
+        "spring-2019",
+        "summer-2019",
+        "fall-2019",
+        "winter-2020",
+        "spring-2020",
+        "summer-2020",
+        "fall-2020",
+        "winter-2021",
+        "spring-2021",
+        "summer-2021",
+        "fall-2021",
+        "winter-2022",
+        "spring-2022",
+        "summer-2022",
+        "fall-2022",
+        "winter-2023",
+        "spring-2023",
+        "summer-2023",
+        "fall-2023",
+        "winter-2024",
+        "spring-2024",
+        "summer-2024",
+        "fall-2024",
+        "winter-2025",
+        "spring-2025",
+        "summer-2025"
+      ],
+      "images": {},
+      "extended_maturity_rating": {
+        "system": "cr-tv",
+        "rating": "14",
+        "level": "M2"
+      },
+      "maturity_ratings": [
+        "TV-14"
+      ],
+      "content_descriptors": [
+        "Drug/Alcohol Use",
+        "Profanity",
+        "Smoking",
+        "Violence"
+      ],
+      "is_mature": false,
+      "mature_blocked": false,
+      "is_subbed": true,
+      "is_dubbed": true,
+      "is_simulcast": true,
+      "seo_title": "",
+      "seo_description": "",
+      "availability_notes": "",
+      "audio_locales": [
+        "ja-JP"
+      ],
+      "subtitle_locales": [
+        "es-ES",
+        "en-US",
+        "es-419",
+        "pt-BR"
+      ],
+      "audio_locale": "ja-JP",
+      "versions": [
+        {
+          "audio_locale": "ja-JP",
+          "guid": "GYP8PM4KY",
+          "original": true,
+          "variant": ""
+        },
+        {
+          "audio_locale": "en-US",
+          "guid": "G6P8CXD9E",
+          "original": false,
+          "variant": ""
+        }
+      ],
+      "identifier": "GRMG8ZQZR|S16P2",
+      "number_of_episodes": 25
+    }
+  ],
+  "meta": {
+    "versions_considered": true
+  },
+  "total": 28
+}
