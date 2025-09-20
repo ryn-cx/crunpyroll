@@ -11,6 +11,8 @@ from typing import Union, Optional, Dict
 import httpx
 import json
 from httpx._types import ProxyTypes
+import re
+import base64
 
 
 class Client(Object, Methods):
@@ -60,13 +62,28 @@ class Client(Object, Methods):
         self.device_name: str = device_name
         self.device_type: str = device_type
 
+        self.public_token: str | None = None
+
         self.http = httpx.AsyncClient(proxy=proxy, timeout=15)
         self.session = Session(self)
 
     async def start(self):
         if self.session.is_authorized:
             raise CrunpyrollException("Client is already authorized and started.")
+        self.public_token = await self.get_public_token()
         return await self.session.authorize()
+
+    async def get_public_token(self) -> str:
+        """Get a public token from Crunchyroll."""
+        url = "https://static.crunchyroll.com/vilos-v2/web/vilos/js/bundle.js"
+        response = await self.http.get(url)
+        text_content = response.text
+
+        if not (match := re.search(r'prod="([\w-]+:[\w-]+)"', text_content)):
+            raise CrunpyrollException("Failed to extract public token from bundle.js")
+
+        encoded_public_token = match.group(1)
+        return base64.b64encode(encoded_public_token.encode("iso-8859-1")).decode()
 
     @staticmethod
     def parse_response(

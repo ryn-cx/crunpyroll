@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 
-from .utils import get_date, PUBLIC_TOKEN
+from .utils import get_date
 
 from .errors import ClientNotAuthorized
 
@@ -40,7 +40,7 @@ class Session:
             response = await self._client.api_request(
                 method="POST",
                 endpoint="auth/v1/token",
-                headers={"Authorization": f"Basic {PUBLIC_TOKEN}"},
+                headers={"Authorization": f"Basic {self._client.public_token}"},
                 payload={
                     "grant_type": "client_id",
                 },
@@ -50,7 +50,7 @@ class Session:
             response = await self._client.api_request(
                 method="POST",
                 endpoint="auth/v1/token",
-                headers={"Authorization": f"Basic {PUBLIC_TOKEN}"},
+                headers={"Authorization": f"Basic {self._client.public_token}"},
                 payload={
                     "username": self._client.email,
                     "password": self._client.password,
@@ -73,7 +73,7 @@ class Session:
             response = await self._client.api_request(
                 method="POST",
                 endpoint="auth/v1/token",
-                headers={"Authorization": f"Basic {PUBLIC_TOKEN}"},
+                headers={"Authorization": f"Basic {self._client.public_token}"},
                 payload={
                     "grant_type": "client_id",
                 },
@@ -83,7 +83,7 @@ class Session:
             response = await self._client.api_request(
                 method="POST",
                 endpoint="auth/v1/token",
-                headers={"Authorization": f"Basic {PUBLIC_TOKEN}"},
+                headers={"Authorization": f"Basic {self._client.public_token}"},
                 payload={
                     "refresh_token": self.refresh_token,
                     "grant_type": "refresh_token",
