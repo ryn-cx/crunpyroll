@@ -1,15 +1,9 @@
 from crunpyroll import enums
+from crunpyroll.protocols import ClientProtocol
 
-import crunpyroll
 
-
-class DeleteActiveStream:
-    async def delete_active_stream(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
-        media_id: str,
-        *,
-        token: str,
-    ) -> bool:
+class DeleteActiveStream(ClientProtocol):
+    async def delete_active_stream(self, media_id: str, *, token: str) -> bool:
         """
         Delete an active stream.
 

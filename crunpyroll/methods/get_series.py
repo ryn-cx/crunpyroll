@@ -1,11 +1,11 @@
 from crunpyroll import types
+from crunpyroll.protocols import ClientProtocol
 from typing import Any
-import crunpyroll
 
 
-class GetSeries:
+class GetSeries(ClientProtocol):
     async def download_series(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
+        self,
         series_id: str,
         *,
         locale: str | None = None,
@@ -37,7 +37,7 @@ class GetSeries:
         return response
 
     async def get_series(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
+        self,
         series_id: str,
         *,
         locale: str | None = None,

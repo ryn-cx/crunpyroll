@@ -1,11 +1,11 @@
 from crunpyroll import types
+from crunpyroll.protocols import ClientProtocol
 from typing import Any
-import crunpyroll
 
 
-class GetObjects:
+class GetObjects(ClientProtocol):
     async def download_objects(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
+        self,
         object_id: str,
         *,
         preferred_audio_language: str | None = None,
@@ -42,7 +42,7 @@ class GetObjects:
         return response
 
     async def get_objects(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
+        self,
         object_id: str,
         *,
         preferred_audio_language: str | None = None,

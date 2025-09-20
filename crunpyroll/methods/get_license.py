@@ -1,11 +1,10 @@
 from crunpyroll import enums
+from crunpyroll.protocols import ClientProtocol
 
-import crunpyroll
 
-
-class GetLicense:
+class GetLicense(ClientProtocol):
     async def get_license(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
+        self,
         media_id: str,
         *,
         challenge: bytes,

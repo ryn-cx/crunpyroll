@@ -1,12 +1,10 @@
 from crunpyroll import types
+from crunpyroll.protocols import ClientProtocol
 from typing import Any
-import crunpyroll
 
 
-class GetIndex:
-    async def download_index(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
-    ) -> dict[Any, Any]:
+class GetIndex(ClientProtocol):
+    async def download_index(self) -> dict[Any, Any]:
         """
         Download session index.
 
@@ -25,9 +23,7 @@ class GetIndex:
 
         return response
 
-    async def get_index(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
-    ) -> types.SessionIndex:
+    async def get_index(self) -> types.SessionIndex:
         """
         Get session index. It's unlikely that you would use this method.
 

@@ -1,13 +1,9 @@
 from crunpyroll import types
-from typing import Any
-import crunpyroll
+from crunpyroll.protocols import ClientProtocol
 
 
-class GetManifest:
-    async def download_manifest(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
-        url: str,
-    ) -> str:
+class GetManifest(ClientProtocol):
+    async def download_manifest(self, url: str) -> str:
         """
         Retrieve manifest.
 
@@ -23,10 +19,7 @@ class GetManifest:
         await self.session.retrieve()
         return await self.manifest_request(url)
 
-    async def get_manifest(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
-        url: str,
-    ) -> types.Manifest:
+    async def get_manifest(self, url: str) -> types.Manifest:
         """
         Retrieve and parse manifest.
 

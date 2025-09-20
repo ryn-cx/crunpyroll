@@ -1,13 +1,12 @@
 from crunpyroll import enums
 from crunpyroll import types
+from crunpyroll.protocols import ClientProtocol
 from typing import Any
 
-import crunpyroll
 
-
-class Search:
+class Search(ClientProtocol):
     async def download_search(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
+        self,
         query: str,
         *,
         max_results: int = 6,
@@ -61,7 +60,7 @@ class Search:
         return response
 
     async def search(
-        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
+        self,
         query: str,
         *,
         max_results: int = 6,
