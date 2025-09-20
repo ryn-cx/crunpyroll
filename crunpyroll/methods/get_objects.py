@@ -65,5 +65,9 @@ class GetObjects(ClientProtocol):
             (:obj:`~crunpyroll.types.Series` | :obj:`~crunpyroll.types.Season` | :obj:`~crunpyroll.types.Episode` | :obj:`~crunpyroll.types.Movie`):
                 On success, series/season/episode/movie object is returned.
         """
-        response = await self.download_objects(object_id, preferred_audio_language=preferred_audio_language, locale=locale)
+        response = await self.download_objects(
+            object_id,
+            preferred_audio_language=preferred_audio_language,
+            locale=locale,
+        )
         return types.ObjectsQuery.parse(response)
