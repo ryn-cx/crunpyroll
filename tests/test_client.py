@@ -11,8 +11,9 @@ async def test_start_client():
     client = crunpyroll.Client()
     await client.start()
 
+
 @pytest.mark.asyncio
-async def test_episode():
+async def test_get_episode():
     client = crunpyroll.Client()
     await client.start()
     episodes = await client.get_episodes("GRJQC1E51")
