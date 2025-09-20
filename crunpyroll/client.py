@@ -17,9 +17,9 @@ class Client(Object, Methods):
     """Initialize Crunchyroll Client
 
     Parameters:
-        email (``str``):
+        email (``str``, *optional*):
             Email or username of the account.
-        password (``str``):
+        password (``str``, *optional*):
             Password of the account.
         preferred_audio_language (``str``, *optional*):
             The audio language to use in Crunchyroll.
@@ -42,8 +42,8 @@ class Client(Object, Methods):
     def __init__(
         self,
         *,
-        email: str,
-        password: str,
+        email: str | None = None,
+        password: str | None = None,
         preferred_audio_language: str = "ja-JP",
         locale: str = "en-US",
         device_id: str = DEVICE_ID,
@@ -51,6 +51,7 @@ class Client(Object, Methods):
         device_type: str = DEVICE_TYPE,
         proxy: ProxyTypes | None = None,
     ) -> None:
+        self.anonymous = not (email and password)
         self.email: str = email
         self.password: str = password
         self.preferred_audio_language: str = preferred_audio_language
