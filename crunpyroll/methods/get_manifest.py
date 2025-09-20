@@ -1,11 +1,30 @@
 from crunpyroll import types
-
+from typing import Any
 import crunpyroll
 
 
 class GetManifest:
+    async def download_manifest(
+        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
+        url: str,
+    ) -> str:
+        """
+        Retrieve manifest.
+
+        Parameters:
+            url (``str``):
+                URL of the manifest.
+
+        Returns:
+            :obj:`str`:
+                Raw manifest data.
+
+        """
+        await self.session.retrieve()
+        return await self.manifest_request(url)
+
     async def get_manifest(
-        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
+        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
         url: str,
     ) -> types.Manifest:
         """
@@ -20,6 +39,5 @@ class GetManifest:
                 On success, parsed manifest is returned.
 
         """
-        await self.session.retrieve()
-        response = await self.manifest_request(url)
+        response = await self.download_manifest(url)
         return types.Manifest.parse(response)

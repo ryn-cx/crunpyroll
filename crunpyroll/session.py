@@ -9,7 +9,7 @@ import crunpyroll
 
 
 class Session:
-    def __init__(self, client: crunpyroll.Client):
+    def __init__(self, client: "crunpyroll.Client"):
         self._client = client
 
         self.access_token: str | None = None

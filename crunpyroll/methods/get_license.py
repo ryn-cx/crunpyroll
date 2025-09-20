@@ -5,7 +5,7 @@ import crunpyroll
 
 class GetLicense:
     async def get_license(
-        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
+        self: "crunpyroll.Client",  # type: ignore[reportGeneralTypeIssues]
         media_id: str,
         *,
         challenge: bytes,
@@ -43,4 +43,11 @@ class GetLicense:
             host=enums.APIHost.LICENSE,
             payload=challenge,
         )
+
+        if response is None:
+            raise ValueError("Failed to download license.")
+        
+        if not isinstance(response, str):
+            raise ValueError("Invalid license response format.")
+
         return response
