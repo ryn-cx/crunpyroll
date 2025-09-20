@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class ContentType(Enum):
     """Content type enumeration."""
 

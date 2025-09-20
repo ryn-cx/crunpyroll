@@ -4,6 +4,7 @@ from .hardsub import HardsubStream
 
 from typing import List, Dict
 
+
 class MediaStreams(Object):
     """
     Info about streams of a media content.
@@ -27,6 +28,7 @@ class MediaStreams(Object):
         hardsubs (List of :obj:`~crunpyroll.types.HardsubStream`):
             List of available hardsubs stream.
     """
+
     def __init__(self, data: Dict):
         self.media_id: str = data.get("media_id")
         self.audio_locale: str = data.get("audioLocale")
@@ -40,12 +42,10 @@ class MediaStreams(Object):
         data = {}
         data.update(obj)
         data["subtitles"] = [
-            SubtitlesStream(subtitle) for
-            subtitle in obj.get("subtitles").values()
+            SubtitlesStream(subtitle) for subtitle in obj.get("subtitles").values()
         ]
         data["hardsub"] = [
-            HardsubStream(video) for
-            video in obj.get("hardSubs").values()
+            HardsubStream(video) for video in obj.get("hardSubs").values()
         ]
         data["media_id"] = media_id
         return cls(data)

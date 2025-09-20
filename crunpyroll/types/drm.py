@@ -1,6 +1,7 @@
 from .obj import Object
 from typing import Dict
 
+
 class DRM(Object):
     """
     Info about DRM.
@@ -10,9 +11,11 @@ class DRM(Object):
 
         pssh (``str``)
     """
+
     def __init__(self, data: Dict):
         self.key_id: str = data.get("key_id")
         self.pssh: str = data.get("pssh")
+
 
 class ContentProtection(Object):
     """
@@ -25,6 +28,7 @@ class ContentProtection(Object):
         playready (:obj:`~crunpyroll.types.DRM`):
             Info about PlayReady DRM.
     """
+
     def __init__(self, data: Dict):
         self.widevine: "DRM" = DRM(data.get("widevine"))
         self.playready: "DRM" = DRM(data.get("playready"))

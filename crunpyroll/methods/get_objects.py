@@ -2,6 +2,7 @@ from crunpyroll import types
 
 import crunpyroll
 
+
 class GetObjects:
     async def get_objects(
         self: "crunpyroll.Client",
@@ -22,7 +23,7 @@ class GetObjects:
             locale (``str``, *optional*):
                 Localize request for different results.
                 Default to the one used in Client.
-                
+
         Returns:
             (:obj:`~crunpyroll.types.Series` | :obj:`~crunpyroll.types.Season` | :obj:`~crunpyroll.types.Episode` | :obj:`~crunpyroll.types.Movie`):
                 On success, series/season/episode/movie object is returned.
@@ -32,8 +33,9 @@ class GetObjects:
             method="GET",
             endpoint="content/v2/cms/objects/" + object_id,
             params={
-                "preferred_audio_language": preferred_audio_language or self.preferred_audio_language,
+                "preferred_audio_language": preferred_audio_language
+                or self.preferred_audio_language,
                 "locale": locale or self.locale,
-            }
+            },
         )
         return types.ObjectsQuery.parse(response)

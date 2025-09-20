@@ -1,8 +1,9 @@
 from enum import Enum
 
+
 class APIHost(Enum):
     """API hosts enumeration."""
-    
+
     WEB = "www.crunchyroll.com"
     "Universal WWW host. Mostly used on web applications."
 

@@ -1,27 +1,21 @@
 from .methods import Methods
-from .utils import (
-    get_api_headers,
-    DEVICE_ID,
-    DEVICE_NAME,
-    DEVICE_TYPE
-)
+from .utils import get_api_headers, DEVICE_ID, DEVICE_NAME, DEVICE_TYPE
 
 from .session import Session
 from .errors import CrunpyrollException
 from .enums import APIHost
 from .types.obj import Object
 
-from typing import (
-    Union, Optional,
-    Dict
-)
+from typing import Union, Optional, Dict
 
 import httpx
 import json
 from httpx._types import ProxyTypes
+
+
 class Client(Object, Methods):
     """Initialize Crunchyroll Client
-    
+
     Parameters:
         email (``str``):
             Email or username of the account.
@@ -44,6 +38,7 @@ class Client(Object, Methods):
             Proxies for HTTP requests.
             Default to None
     """
+
     def __init__(
         self,
         *,
@@ -54,7 +49,7 @@ class Client(Object, Methods):
         device_id: str = DEVICE_ID,
         device_name: str = DEVICE_NAME,
         device_type: str = DEVICE_TYPE,
-        proxy: ProxyTypes | None = None
+        proxy: ProxyTypes | None = None,
     ) -> None:
         self.email: str = email
         self.password: str = password
@@ -108,14 +103,10 @@ class Client(Object, Methods):
         if self.session.is_authorized and include_session:
             api_headers.update(self.session.authorization_header)
         response = await self.http.request(
-            method=method,
-            url=url,
-            params=params,
-            headers=api_headers,
-            data=payload
+            method=method, url=url, params=params, headers=api_headers, data=payload
         )
         return Client.parse_response(response, method=method)
-    
+
     async def manifest_request(
         self,
         url: str,

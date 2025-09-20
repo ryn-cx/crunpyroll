@@ -1,15 +1,12 @@
 from .obj import Object
 from .drm import ContentProtection
 
-from ..utils import (
-    WIDEVINE_UUID,
-    PLAYREADY_UUID,
-    parse_segments
-)
+from ..utils import WIDEVINE_UUID, PLAYREADY_UUID, parse_segments
 
 from typing import List, Dict
 
 import xmltodict
+
 
 class Manifest(Object):
     """
@@ -29,10 +26,13 @@ class Manifest(Object):
             Plain version of the manifest (XML).
             Useful for external downloader tools.
     """
+
     def __init__(self, data: Dict):
         self.video_streams: List["ManifestVideoStream"] = data.get("video_streams")
         self.audio_streams: List["ManifestAudioStream"] = data.get("audio_streams")
-        self.content_protection: "ContentProtection" = ContentProtection(data.get("content_protection"))
+        self.content_protection: "ContentProtection" = ContentProtection(
+            data.get("content_protection")
+        )
         self.plain: str = data.get("plain")
 
     @classmethod
@@ -50,7 +50,9 @@ class Manifest(Object):
                 if scheme_id_uri == WIDEVINE_UUID:
                     data["content_protection"]["widevine"] = {}
                     data["content_protection"]["widevine"]["pssh"] = drm["cenc:pssh"]
-                    data["content_protection"]["widevine"]["key_id"] = drm["@cenc:default_KID"]
+                    data["content_protection"]["widevine"]["key_id"] = drm[
+                        "@cenc:default_KID"
+                    ]
                 if scheme_id_uri == PLAYREADY_UUID:
                     data["content_protection"]["playready"] = {}
                     data["content_protection"]["playready"]["pssh"] = drm["mspr:pro"]
@@ -62,6 +64,7 @@ class Manifest(Object):
                     stream = ManifestAudioStream.parse(repr, template)
                     data["audio_streams"].append(stream)
         return cls(data)
+
 
 class ManifestVideoStream(Object):
     """
@@ -76,13 +79,14 @@ class ManifestVideoStream(Object):
 
         height (``int``):
             Height of the video stream.
-        
+
         bitrate (``int``):
             Bitrate of the video stream.
 
         segments (List of ``str``):
             Each segment URL of the video stream.
     """
+
     def __init__(self, data: Dict):
         self.codecs: str = data.get("codecs")
         self.width: int = data.get("width")
@@ -99,7 +103,8 @@ class ManifestVideoStream(Object):
         data["bitrate"] = int(obj["@bandwidth"])
         data["segments"] = parse_segments(obj, template)
         return cls(data)
-    
+
+
 class ManifestAudioStream(Object):
     """
     Info about a manifest audio stream.
@@ -107,13 +112,14 @@ class ManifestAudioStream(Object):
     Parameters:
         codecs (``str``):
             Codecs of the audio stream.
-        
+
         bitrate (``int``):
             Bitrate of the audio stream.
 
         segments (List of ``str``):
             Each segment URL of the audio stream.
     """
+
     def __init__(self, data: Dict):
         self.codecs: str = data.get("codecs")
         self.bitrate: int = data.get("bitrate")

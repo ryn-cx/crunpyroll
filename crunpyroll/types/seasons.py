@@ -3,6 +3,7 @@ from .content import Content
 
 from typing import List, Dict
 
+
 class SeasonsQuery(Object):
     """
     Query containing seasons.
@@ -14,6 +15,7 @@ class SeasonsQuery(Object):
         items (``list`` of :obj:`~crunpyroll.types.Season`):
             List containing each season.
     """
+
     def __init__(self, data: Dict):
         self.total: int = data.get("total")
         self.items: List["Season"] = data.get("items")
@@ -22,11 +24,9 @@ class SeasonsQuery(Object):
     def parse(cls, obj: Dict):
         data = {}
         data["total"] = obj["total"]
-        data["items"] = [
-            Season.parse(item)
-            for item in obj["data"]
-        ]
+        data["items"] = [Season.parse(item) for item in obj["data"]]
         return cls(data)
+
 
 class Season(Content):
     """
@@ -67,7 +67,7 @@ class Season(Content):
 
         is_simulcast (``bool``):
             True, if this season is simulcast (currently airing).
-        
+
         is_subbed (``bool``):
             True, if this season got subtitles.
 
@@ -77,6 +77,7 @@ class Season(Content):
         is_mature (``bool``):
             True, if this season is NSFW.
     """
+
     def __init__(self, data: Dict):
         self.id: str = data.get("id")
         self.title: str = data.get("title")

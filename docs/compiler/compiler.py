@@ -9,6 +9,7 @@ METHODS_TEMPLATE = open("template/methods.rst", encoding="UTF-8").read()
 TYPES_TEMPLATE = open("template/types.rst", encoding="UTF-8").read()
 ENUMS_TEMPLATE = open("template/enums.rst", encoding="UTF-8").read()
 
+
 def generate_documentation(
     directory: str,
     keys: List[str],
@@ -30,23 +31,13 @@ def generate_documentation(
                 f.write(f"\n   :{arg}:")
 
     # Build list
-    template_lines.extend([
-        "\n\n",
-        ".. autosummary::\n",
-        "   :nosignatures:\n",
-        "\n\n"
-    ])
+    template_lines.extend(["\n\n", ".. autosummary::\n", "   :nosignatures:\n", "\n\n"])
 
     for key in keys:
         template_lines.append(f"    {key} <{key}>\n")
 
     # Build TOC
-    template_lines.extend([
-        "\n\n",
-        ".. toctree::\n",
-        "   :hidden:\n",
-        "\n\n"
-    ])
+    template_lines.extend(["\n\n", ".. toctree::\n", "   :hidden:\n", "\n\n"])
 
     for key in keys:
         template_lines.append(f"    {key} <{key}>\n")
@@ -56,7 +47,8 @@ def generate_documentation(
         template += line
     with open(root + "/index.rst", "w") as index:
         index.write(template)
-        
+
+
 if "__main__" == __name__:
     generate_documentation(
         directory="/methods",
@@ -73,8 +65,8 @@ if "__main__" == __name__:
             "get_index",
             "get_streams",
             "get_license",
-            "get_manifest"
-        ]
+            "get_manifest",
+        ],
     )
 
     generate_documentation(
@@ -102,8 +94,8 @@ if "__main__" == __name__:
             "ContentProtection",
             "DRM",
             "Image",
-            "Images"
-        ]
+            "Images",
+        ],
     )
 
     generate_documentation(
@@ -112,9 +104,5 @@ if "__main__" == __name__:
         auto_type="class",
         autodocs_args=["members"],
         template=ENUMS_TEMPLATE,
-        keys=[
-            "ContentType",
-            "ImageType",
-            "APIHost"
-        ]
+        keys=["ContentType", "ImageType", "APIHost"],
     )

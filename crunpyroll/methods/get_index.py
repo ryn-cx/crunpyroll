@@ -2,6 +2,7 @@ from crunpyroll import types
 
 import crunpyroll
 
+
 class GetIndex:
     async def get_index(
         self: "crunpyroll.Client",

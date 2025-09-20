@@ -2,6 +2,7 @@ from crunpyroll import types
 
 import crunpyroll
 
+
 class GetProfile:
     async def get_profile(
         self: "crunpyroll.Client",

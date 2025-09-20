@@ -7,6 +7,7 @@ from ..utils import str_to_date
 from datetime import datetime
 from typing import List, Dict
 
+
 class EpisodesQuery(Object):
     """
     Query containing episodes.
@@ -18,6 +19,7 @@ class EpisodesQuery(Object):
         items (``list`` of :obj:`~crunpyroll.types.Episode`):
             List containing each episode.
     """
+
     def __init__(self, data: Dict):
         self.total: int = data.get("total")
         self.items: List["Episode"] = data.get("items")
@@ -26,11 +28,9 @@ class EpisodesQuery(Object):
     def parse(cls, obj: Dict):
         data = {}
         data["total"] = obj["total"]
-        data["items"] = [
-            Episode.parse(item)
-            for item in obj["data"]
-        ]
+        data["items"] = [Episode.parse(item) for item in obj["data"]]
         return cls(data)
+
 
 class Episode(Content):
     """
@@ -101,10 +101,10 @@ class Episode(Content):
 
         images (:obj:`~crunpyroll.types.Images`):
             Images of the episode.
-        
+
         has_closed_captions (``bool``):
             True, if this episode got closed captions.
-        
+
         is_available_offline (``bool``):
             True, if this episode is available offline.
 
@@ -116,7 +116,7 @@ class Episode(Content):
 
         is_simulcast (``bool``):
             True, if this episode is simulcast (currently airing).
-        
+
         is_subbed (``bool``):
             True, if this episode got subtitles.
 
@@ -126,14 +126,19 @@ class Episode(Content):
         is_mature (``bool``):
             True, if this episode is NSFW.
     """
+
     def __init__(self, data: Dict):
         self.id: str = data.get("id")
         self.title: str = data.get("title")
         self.slug: str = data.get("slug_title")
         self.episode_number: int = data.get("episode_number")
         self.duration: int = data.get("duration_ms")
-        self.free_available_date: datetime = str_to_date(data.get("free_available_date"))
-        self.premium_available_date: datetime = str_to_date(data.get("premium_available_date"))
+        self.free_available_date: datetime = str_to_date(
+            data.get("free_available_date")
+        )
+        self.premium_available_date: datetime = str_to_date(
+            data.get("premium_available_date")
+        )
         self.air_date: datetime = str_to_date(data.get("episode_air_date"))
         self.upload_date: datetime = str_to_date(data.get("upload_date"))
         self.description: str = data.get("description")
@@ -157,7 +162,7 @@ class Episode(Content):
         self.is_subbed: bool = data.get("is_subbed")
         self.is_dubbed: bool = data.get("is_dubbed")
         self.is_mature: bool = data.get("is_mature")
-    
+
     @classmethod
     def parse(cls, obj: Dict):
         data = {}

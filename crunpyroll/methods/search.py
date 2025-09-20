@@ -5,6 +5,7 @@ from typing import List
 
 import crunpyroll
 
+
 class Search:
     async def search(
         self: "crunpyroll.Client",
@@ -17,7 +18,7 @@ class Search:
             enums.ContentType.MOVIE,
             enums.ContentType.EPISODE,
             enums.ContentType.MUSIC,
-        ]
+        ],
     ) -> "types.SearchQuery":
         """
         Search for series, movies or episodes.
@@ -41,8 +42,7 @@ class Search:
         """
         await self.session.retrieve()
         filters_string = ",".join(
-            filter.value for filter in filters
-            if isinstance(filter, enums.ContentType)
+            filter.value for filter in filters if isinstance(filter, enums.ContentType)
         )
         response = await self.api_request(
             method="GET",
@@ -51,7 +51,7 @@ class Search:
                 "q": query,
                 "n": max_results,
                 "locale": locale or self.locale,
-                "type": filters_string
-            }
+                "type": filters_string,
+            },
         )
         return types.SearchQuery.parse(response)

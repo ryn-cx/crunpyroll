@@ -9,6 +9,7 @@ from typing import Union, List, Dict
 
 ITEMS_TYPING = List[Union["Series", "Episode", "Movie"]]
 
+
 class SearchQuery(Object):
     """
     Query containing search results.
@@ -20,14 +21,11 @@ class SearchQuery(Object):
         items (List of [:obj:`~crunpyroll.types.Series` | :obj:`~crunpyroll.types.Episode` | :obj:`~crunpyroll.types.Movie`]):
             List containing each result.
     """
-    def __init__(
-        self,
-        total: int,
-        items: List
-    ):
+
+    def __init__(self, total: int, items: List):
         self.total: int = total
         self.items: ITEMS_TYPING = items
-        
+
     @classmethod
     def parse(cls, response: Dict):
         # TODO: Add support for Music

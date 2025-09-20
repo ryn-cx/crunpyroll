@@ -1,7 +1,7 @@
-from crunpyroll import types
 from crunpyroll import enums
 
 import crunpyroll
+
 
 class GetLicense:
     async def get_license(
@@ -15,7 +15,7 @@ class GetLicense:
         Get DRM license. Useful to obtain decryption keys.
 
         .. todo::
-            
+
             Add support for PlayReady DRM
 
         Parameters:

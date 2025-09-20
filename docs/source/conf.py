@@ -3,9 +3,9 @@ import sys
 
 sys.path.insert(0, os.path.abspath("../.."))
 
-project = 'Crunpyroll'
-copyright = '2024, stefanodvx'
-author = 'stefanodvx'
+project = "Crunpyroll"
+copyright = "2024, stefanodvx"
+author = "stefanodvx"
 
 extensions = [
     "sphinx.ext.todo",
@@ -13,12 +13,10 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.napoleon",
     "sphinx.ext.intersphinx",
-    "sphinx_copybutton"
+    "sphinx_copybutton",
 ]
 
-intersphinx_mapping = {
-    "python": ("https://docs.python.org/3", None)
-}
+intersphinx_mapping = {"python": ("https://docs.python.org/3", None)}
 
 master_doc = "index"
 source_suffix = ".rst"
@@ -65,7 +63,7 @@ html_theme_options = {
             ),
             "class": "",
         },
-    ]
+    ],
 }
 
 latex_engine = "xelatex"
@@ -76,5 +74,5 @@ latex_elements = {
         \setmainfont{Open Sans}
         \setsansfont{Bitter}
         \setmonofont{Ubuntu Mono}
-        """
+        """,
 }

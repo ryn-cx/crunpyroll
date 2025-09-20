@@ -3,6 +3,7 @@ from .content import Content
 
 from typing import List, Dict
 
+
 class Series(Content):
     """
     Info about a series.
@@ -39,7 +40,7 @@ class Series(Content):
 
         is_simulcast (``bool``):
             True, if this season is simulcast (currently airing).
-        
+
         is_subbed (``bool``):
             True, if this season got subtitles.
 
@@ -49,6 +50,7 @@ class Series(Content):
         is_mature (``bool``):
             True, if this season is NSFW.
     """
+
     def __init__(self, data: Dict):
         self.id: str = data.get("id")
         self.title: str = data.get("title")

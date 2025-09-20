@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class ImageType(Enum):
     """Images type enumeration."""
 

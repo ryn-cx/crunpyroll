@@ -5,7 +5,8 @@ from ..utils import str_to_date
 
 from typing import List, Dict
 from datetime import datetime
-    
+
+
 class Movie(Content):
     """
     Info about a movie.
@@ -47,10 +48,10 @@ class Movie(Content):
 
         images (:obj:`~crunpyroll.types.Images`):
             Images of the movie.
-        
+
         has_closed_captions (``bool``):
             True, if this movie got closed captions.
-        
+
         is_available_offline (``bool``):
             True, if this movie is available offline.
 
@@ -65,7 +66,7 @@ class Movie(Content):
 
         is_simulcast (``bool``):
             True, if this movie is simulcast (currently airing).
-        
+
         is_subbed (``bool``):
             True, if this movie got subtitles.
 
@@ -75,13 +76,18 @@ class Movie(Content):
         is_mature (``bool``):
             True, if this movie is NSFW.
     """
+
     def __init__(self, data: Dict):
         self.id: str = data.get("id")
         self.title: str = data.get("title")
         self.slug: str = data.get("slug_title")
         self.duration: int = data.get("duration_ms")
-        self.free_available_date: datetime = str_to_date(data.get("free_available_date"))
-        self.premium_available_date: datetime = str_to_date(data.get("premium_available_date"))
+        self.free_available_date: datetime = str_to_date(
+            data.get("free_available_date")
+        )
+        self.premium_available_date: datetime = str_to_date(
+            data.get("premium_available_date")
+        )
         self.release_year: int = data.get("movie_release_year")
         self.description: str = data.get("description")
         self.first_movie_id: str = data.get("first_movie_id")
@@ -97,7 +103,7 @@ class Movie(Content):
         self.is_subbed: bool = data.get("is_subbed")
         self.is_dubbed: bool = data.get("is_dubbed")
         self.is_mature: bool = data.get("is_mature")
-    
+
     @classmethod
     def parse(cls, obj: Dict):
         data = {}

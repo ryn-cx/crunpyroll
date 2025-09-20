@@ -10,6 +10,7 @@ from .get_manifest import GetManifest
 from .get_license import GetLicense
 from .delete_active_stream import DeleteActiveStream
 
+
 class Methods(
     Search,
     GetIndex,
@@ -21,6 +22,6 @@ class Methods(
     GetManifest,
     GetLicense,
     GetObjects,
-    DeleteActiveStream
+    DeleteActiveStream,
 ):
     pass
