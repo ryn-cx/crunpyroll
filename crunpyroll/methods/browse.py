@@ -56,7 +56,6 @@ class Browse(ClientProtocol):
         """
         # Building the parameters like this means the parameters sent should exactly match
         # the ones sent by Crunchyroll's own website.
-        # Both URLs always have these values, all other values are optional.
         params: dict[str, str | int] = {
             "n": max_results,
             "sort_by": sort_by,
