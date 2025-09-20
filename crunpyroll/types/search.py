@@ -5,9 +5,9 @@ from .series import Series
 from .episodes import Episode
 from .movies import Movie
 
-from typing import Union, List, Dict
+from typing import Any
 
-ITEMS_TYPING = List[Union["Series", "Episode", "Movie"]]
+ITEMS_TYPING = list[Series | Episode | Movie]
 
 
 class SearchQuery(Object):
@@ -22,14 +22,14 @@ class SearchQuery(Object):
             List containing each result.
     """
 
-    def __init__(self, total: int, items: List):
-        self.total: int = total
-        self.items: ITEMS_TYPING = items
+    def __init__(self, total: int, items: ITEMS_TYPING):
+        self.total = total
+        self.items = items
 
     @classmethod
-    def parse(cls, response: Dict):
+    def parse(cls, response: dict[Any, Any]):
         # TODO: Add support for Music
-        items = []
+        items: ITEMS_TYPING = []
         for sec in response["data"]:
             for item in sec["items"]:
                 if item["type"] == ContentType.SERIES.value:

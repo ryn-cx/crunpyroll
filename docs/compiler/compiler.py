@@ -1,8 +1,6 @@
 import os
 import shutil
 
-from typing import List
-
 DEST = "../source/api"
 
 METHODS_TEMPLATE = open("template/methods.rst", encoding="UTF-8").read()
@@ -12,11 +10,11 @@ ENUMS_TEMPLATE = open("template/enums.rst", encoding="UTF-8").read()
 
 def generate_documentation(
     directory: str,
-    keys: List[str],
+    keys: list[str],
     base_class: str,
     template: str,
     auto_type: str,
-    autodocs_args: List[str] = [],
+    autodocs_args: list[str] = [],
 ):
     template_lines = []
     root = DEST + directory

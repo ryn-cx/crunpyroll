@@ -3,7 +3,7 @@ from .drm import ContentProtection
 
 from ..utils import WIDEVINE_UUID, PLAYREADY_UUID, parse_segments
 
-from typing import List, Dict
+from typing import Any
 
 import xmltodict
 
@@ -27,9 +27,9 @@ class Manifest(Object):
             Useful for external downloader tools.
     """
 
-    def __init__(self, data: Dict):
-        self.video_streams: List["ManifestVideoStream"] = data.get("video_streams")
-        self.audio_streams: List["ManifestAudioStream"] = data.get("audio_streams")
+    def __init__(self, data: dict[Any, Any]):
+        self.video_streams: list["ManifestVideoStream"] = data.get("video_streams")
+        self.audio_streams: list["ManifestAudioStream"] = data.get("audio_streams")
         self.content_protection: "ContentProtection" = ContentProtection(
             data.get("content_protection")
         )
@@ -87,15 +87,15 @@ class ManifestVideoStream(Object):
             Each segment URL of the video stream.
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.codecs: str = data.get("codecs")
         self.width: int = data.get("width")
         self.height: int = data.get("height")
         self.bitrate: int = data.get("bitrate")
-        self.segments: List[str] = data.get("segments")
+        self.segments: list[str] = data.get("segments")
 
     @classmethod
-    def parse(cls, obj: Dict, template: Dict):
+    def parse(cls, obj: dict[Any, Any], template: dict[Any, Any]):
         data = {}
         data["codecs"] = obj["@codecs"]
         data["width"] = int(obj["@width"])
@@ -120,13 +120,13 @@ class ManifestAudioStream(Object):
             Each segment URL of the audio stream.
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.codecs: str = data.get("codecs")
         self.bitrate: int = data.get("bitrate")
-        self.segments: List[str] = data.get("segments")
+        self.segments: list[str] = data.get("segments")
 
     @classmethod
-    def parse(cls, obj: Dict, template: Dict):
+    def parse(cls, obj: dict[Any, Any], template: dict[Any, Any]):
         data = {}
         data["codecs"] = obj["@codecs"]
         data["bitrate"] = int(obj["@bandwidth"])

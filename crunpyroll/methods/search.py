@@ -1,25 +1,24 @@
 from crunpyroll import enums
 from crunpyroll import types
 
-from typing import List
 
 import crunpyroll
 
 
 class Search:
     async def search(
-        self: "crunpyroll.Client",
+        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
         query: str,
         *,
         max_results: int = 6,
-        locale: str = None,
-        filters: List["enums.ContentType"] = [
+        locale: str | None = None,
+        filters: list[enums.ContentType] = [
             enums.ContentType.SERIES,
             enums.ContentType.MOVIE,
             enums.ContentType.EPISODE,
             enums.ContentType.MUSIC,
         ],
-    ) -> "types.SearchQuery":
+    ) -> types.SearchQuery:
         """
         Search for series, movies or episodes.
 

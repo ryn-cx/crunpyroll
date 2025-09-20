@@ -1,6 +1,6 @@
 from .obj import Object
 
-from typing import Dict
+from typing import Any
 
 
 class HardsubStream(Object):
@@ -18,7 +18,7 @@ class HardsubStream(Object):
             URL to DASH/HLS manifest.
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.quality: str = data.get("quality")
         self.language: str = data.get("hlang", data.get("hardsub_locale"))
         self.url: str = data.get("url")

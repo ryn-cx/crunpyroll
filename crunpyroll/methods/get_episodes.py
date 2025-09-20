@@ -5,8 +5,11 @@ import crunpyroll
 
 class GetEpisodes:
     async def get_episodes(
-        self: "crunpyroll.Client", season_id: str, *, locale: str = None
-    ) -> "types.EpisodesQuery":
+        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
+        season_id: str,
+        *,
+        locale: str | None = None,
+    ) -> types.EpisodesQuery:
         """
         Get list of episodes from a season.
 

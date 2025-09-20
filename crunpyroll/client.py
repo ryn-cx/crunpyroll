@@ -6,7 +6,7 @@ from .errors import CrunpyrollException
 from .enums import APIHost
 from .types.obj import Object
 
-from typing import Union, Optional, Dict
+from typing import Any
 
 import httpx
 import json
@@ -54,13 +54,13 @@ class Client(Object, Methods):
         proxy: ProxyTypes | None = None,
     ) -> None:
         self.anonymous = not (email and password)
-        self.email: str = email
-        self.password: str = password
-        self.preferred_audio_language: str = preferred_audio_language
-        self.locale: str = locale
-        self.device_id: str = device_id
-        self.device_name: str = device_name
-        self.device_type: str = device_type
+        self.email = email
+        self.password = password
+        self.preferred_audio_language = preferred_audio_language
+        self.locale = locale
+        self.device_id = device_id
+        self.device_name = device_name
+        self.device_type = device_type
 
         self.public_token: str | None = None
 
@@ -90,7 +90,7 @@ class Client(Object, Methods):
         response: httpx.Response,
         *,
         method: str = "GET",
-    ) -> Optional[Union[Dict, str]]:
+    ) -> dict[Any, Any] | str | None:
         status_code = response.status_code
         text_content = response.text
         message = f"[{status_code}] {text_content}"
@@ -109,12 +109,12 @@ class Client(Object, Methods):
         method: str,
         endpoint: str,
         host: APIHost = APIHost.BETA,
-        url: str = None,
-        params: Dict = None,
-        headers: Dict = None,
-        payload: Dict = None,
+        url: str | None = None,
+        params: dict[Any, Any] | None = None,
+        headers: dict[Any, Any] | None = None,
+        payload: dict[Any, Any] | None = None,
         include_session: bool = True,
-    ) -> Optional[Dict]:
+    ) -> dict[Any, Any] | None:
         if not url:
             url = "https://" + host.value + "/" + endpoint
         api_headers = get_api_headers(headers)
@@ -128,7 +128,7 @@ class Client(Object, Methods):
     async def manifest_request(
         self,
         url: str,
-        headers: Dict = None,
+        headers: dict[Any, Any] | None = None,
     ) -> str:
         api_headers = get_api_headers(headers)
         if self.session.is_authorized:

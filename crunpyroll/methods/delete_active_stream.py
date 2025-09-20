@@ -5,7 +5,7 @@ import crunpyroll
 
 class DeleteActiveStream:
     async def delete_active_stream(
-        self: "crunpyroll.Client",
+        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
         media_id: str,
         *,
         token: str,

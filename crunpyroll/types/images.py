@@ -2,7 +2,7 @@ from ..enums import ImageType
 
 from .obj import Object
 
-from typing import List, Dict
+from typing import Any
 
 
 class Images(Object):
@@ -23,11 +23,11 @@ class Images(Object):
             Thumbnails of the content. Mostly used for episodes.
     """
 
-    def __init__(self, data: Dict):
-        self.poster_tall: List["Image"] = Image.from_list(data.get("poster_tall"))
-        self.poster_wide: List["Image"] = Image.from_list(data.get("poster_wide"))
-        self.promo_image: List["Image"] = Image.from_list(data.get("promo_image"))
-        self.thumbnail: List["Image"] = Image.from_list(data.get("thumbnail"))
+    def __init__(self, data: dict[Any, Any]):
+        self.poster_tall = Image.from_list(data.get("poster_tall"))
+        self.poster_wide = Image.from_list(data.get("poster_wide"))
+        self.promo_image = Image.from_list(data.get("promo_image"))
+        self.thumbnail = Image.from_list(data.get("thumbnail"))
 
 
 class Image(Object):
@@ -48,13 +48,13 @@ class Image(Object):
             Type of image (tall, wide, promo...)
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.width: str = data.get("width")
         self.height: int = data.get("height")
         self.url: str = data.get("source")
         self.type: "ImageType" = ImageType(data.get("type"))
 
     @classmethod
-    def from_list(cls, lst: List) -> List:
+    def from_list(cls, lst: list[dict[Any, Any]]) -> list["Image"] | None:
         if lst:
             return [Image(image) for obj in lst for image in obj]

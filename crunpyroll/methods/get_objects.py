@@ -5,12 +5,12 @@ import crunpyroll
 
 class GetObjects:
     async def get_objects(
-        self: "crunpyroll.Client",
+        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
         object_id: str,
         *,
-        preferred_audio_language: str = None,
-        locale: str = None,
-    ) -> "types.ObjectsQuery":
+        preferred_audio_language: str | None = None,
+        locale: str | None = None,
+    ) -> types.ObjectsQuery:
         """
         Get series/season/episode/movie from an id. This method may miss some data.
         Missing attributes:

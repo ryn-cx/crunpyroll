@@ -1,6 +1,6 @@
 from .obj import Object
 
-from typing import Dict
+from typing import Any
 
 
 class Profile(Object):
@@ -33,7 +33,7 @@ class Profile(Object):
             Username of the account.
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.avatar: str = data.get("avatar")
         self.email_verified: bool = data.get("crleg_email_verified")
         self.email: str = data.get("email")

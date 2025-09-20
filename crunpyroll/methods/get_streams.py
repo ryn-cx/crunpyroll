@@ -6,11 +6,11 @@ import crunpyroll
 
 class GetStreams:
     async def get_streams(
-        self: "crunpyroll.Client",
+        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
         media_id: str,
         *,
-        locale: str = None,
-    ) -> "types.MediaStreams":
+        locale: str | None = None,
+    ) -> types.MediaStreams:
         """
         Get available streams of a media.
 

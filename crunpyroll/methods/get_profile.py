@@ -5,8 +5,8 @@ import crunpyroll
 
 class GetProfile:
     async def get_profile(
-        self: "crunpyroll.Client",
-    ) -> "types.Profile":
+        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
+    ) -> types.Profile:
         """
         Get current profile informations.
 

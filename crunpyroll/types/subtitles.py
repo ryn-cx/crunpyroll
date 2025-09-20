@@ -1,6 +1,6 @@
 from .obj import Object
 
-from typing import Dict
+from typing import Any
 
 
 class SubtitlesStream(Object):
@@ -18,7 +18,7 @@ class SubtitlesStream(Object):
             Direct URL to subtitles.
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.format: str = data.get("format")
         self.language: str = data.get("language")
         self.url: str = data.get("url")

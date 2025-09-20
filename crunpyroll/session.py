@@ -4,18 +4,17 @@ from .utils import get_date
 
 from .errors import ClientNotAuthorized
 
-from typing import Optional
 
 import crunpyroll
 
 
 class Session:
-    def __init__(self, client: "crunpyroll.Client"):
-        self._client: crunpyroll.Client = client
+    def __init__(self, client: crunpyroll.Client):
+        self._client = client
 
-        self.access_token: str = None
-        self.refresh_token: str = None
-        self.expiration: datetime = None
+        self.access_token: str | None = None
+        self.refresh_token: str | None = None
+        self.expiration: datetime | None = None
 
     @property
     def is_authorized(self) -> bool:
@@ -35,7 +34,7 @@ class Session:
         if date >= self.expiration:
             await self.refresh()
 
-    async def authorize(self) -> Optional[bool]:
+    async def authorize(self) -> bool | None:
         if self._client.anonymous:
             response = await self._client.api_request(
                 method="POST",
@@ -68,7 +67,7 @@ class Session:
         self.expiration = get_date() + timedelta(seconds=response.get("expires_in"))
         return True
 
-    async def refresh(self) -> Optional[bool]:
+    async def refresh(self) -> bool | None:
         if self._client.anonymous:
             response = await self._client.api_request(
                 method="POST",

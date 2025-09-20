@@ -1,4 +1,4 @@
-from typing import Optional, List, Dict
+from typing import Any
 from datetime import datetime
 from uuid import uuid4
 
@@ -13,7 +13,7 @@ WIDEVINE_UUID = "urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
 PLAYREADY_UUID = "urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"
 
 
-def get_api_headers(headers: Optional[Dict]) -> Dict:
+def get_api_headers(headers: dict[Any, Any] | None) -> dict[Any, Any]:
     return {
         "Connection": "Keep-Alive",
         "Content-Type": "application/x-www-form-urlencoded",
@@ -21,7 +21,7 @@ def get_api_headers(headers: Optional[Dict]) -> Dict:
     } | (headers or {})
 
 
-def parse_segments(repr: Dict, template: Dict) -> List[str]:
+def parse_segments(repr: dict[Any, Any], template: dict[Any, Any]) -> list[str]:
     time = 0
     segments = []
     base_url = repr["BaseURL"]
@@ -46,7 +46,7 @@ def parse_segments(repr: Dict, template: Dict) -> List[str]:
     return segments
 
 
-def format_segment_url(url: str, obj: Dict) -> str:
+def format_segment_url(url: str, obj: dict[Any, Any]) -> str:
     for key, value in obj.items():
         url = url.replace(f"${key}$", value)
     return url
@@ -56,7 +56,7 @@ def get_date() -> datetime:
     return datetime.utcnow()
 
 
-def date_to_str(date: datetime) -> Optional[str]:
+def date_to_str(date: datetime) -> str | None:
     try:
         return "{}-{}-{}T{}:{}:{}Z".format(
             date.year, date.month, date.day, date.hour, date.minute, date.second
@@ -65,7 +65,7 @@ def date_to_str(date: datetime) -> Optional[str]:
         return
 
 
-def str_to_date(string: str) -> Optional[datetime]:
+def str_to_date(string: str) -> datetime | None:
     try:
         return datetime.strptime(string, "%Y-%m-%dT%H:%M:%SZ")
     except Exception:

@@ -6,9 +6,9 @@ from .seasons import Season
 from .episodes import Episode
 from .movies import Movie
 
-from typing import Union, List, Dict
+from typing import Any
 
-ITEMS_TYPING = List[Union["Series", "Season", "Episode", "Movie"]]
+ITEMS_TYPING = list[Series | Season | Episode | Movie]
 
 
 class ObjectsQuery(Object):
@@ -20,12 +20,12 @@ class ObjectsQuery(Object):
         items (List of [:obj:`~crunpyroll.types.Series` | :obj:`~crunpyroll.types.Season` | :obj:`~crunpyroll.types.Episode` | :obj:`~crunpyroll.types.Movie`]):            List containing each result.
     """
 
-    def __init__(self, total: int, items: List):
+    def __init__(self, total: int, items: ITEMS_TYPING):
         self.total: int = total
         self.items: ITEMS_TYPING = items
 
     @classmethod
-    def parse(cls, response: Dict):
+    def parse(cls, response: dict[Any, Any]):
         # TODO: Add support for Music
         item = response["data"][0]
         item_type = item["type"]

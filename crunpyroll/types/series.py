@@ -1,7 +1,7 @@
 from .images import Images
 from .content import Content
 
-from typing import List, Dict
+from typing import Any
 
 
 class Series(Content):
@@ -51,28 +51,28 @@ class Series(Content):
             True, if this season is NSFW.
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.id: str = data.get("id")
         self.title: str = data.get("title")
         self.slug: str = data.get("slug_title")
         self.description: str = data.get("description")
         self.season_count: int = data.get("season_count")
         self.episode_count: int = data.get("episode_count")
-        self.subtitle_locales: List[str] = data.get("subtitle_locales")
-        self.audio_locales: List[str] = data.get("audio_locales")
-        self.maturity_ratings: List[str] = data.get("maturity_ratings")
+        self.subtitle_locales: list[str] = data.get("subtitle_locales")
+        self.audio_locales: list[str] = data.get("audio_locales")
+        self.maturity_ratings: list[str] = data.get("maturity_ratings")
         self.launch_year: int = data.get("series_launch_year")
-        self.images: "Images" = Images(data.get("images", {}))
+        self.images = Images(data.get("images", {}))
         self.is_simulcast: bool = data.get("is_simulcast")
         self.is_subbed: bool = data.get("is_subbed")
         self.is_dubbed: bool = data.get("is_dubbed")
         self.is_mature: bool = data.get("is_mature")
 
     @classmethod
-    def parse(cls, obj: Dict):
+    def parse(cls, obj: dict[Any, Any]):
         data = {}
         if "data" in obj:
-            if isinstance(obj["data"], List):
+            if isinstance(obj["data"], list):
                 data.update(obj["data"][0])
             else:
                 data.update(obj["data"])

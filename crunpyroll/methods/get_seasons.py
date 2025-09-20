@@ -5,12 +5,12 @@ import crunpyroll
 
 class GetSeasons:
     async def get_seasons(
-        self: "crunpyroll.Client",
+        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
         series_id: str,
         *,
-        preferred_audio_language: str = None,
-        locale: str = None,
-    ) -> "types.SeasonsQuery":
+        preferred_audio_language: str | None = None,
+        locale: str | None = None,
+    ) -> types.SeasonsQuery:
         """
         Get list of seasons from a series.
 

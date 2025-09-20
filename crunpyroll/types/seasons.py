@@ -1,7 +1,7 @@
 from .obj import Object
 from .content import Content
 
-from typing import List, Dict
+from typing import Any
 
 
 class SeasonsQuery(Object):
@@ -16,12 +16,12 @@ class SeasonsQuery(Object):
             List containing each season.
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.total: int = data.get("total")
-        self.items: List["Season"] = data.get("items")
+        self.items: list["Season"] = data.get("items")
 
     @classmethod
-    def parse(cls, obj: Dict):
+    def parse(cls, obj: dict[Any, Any]):
         data = {}
         data["total"] = obj["total"]
         data["items"] = [Season.parse(item) for item in obj["data"]]
@@ -78,7 +78,7 @@ class Season(Content):
             True, if this season is NSFW.
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.id: str = data.get("id")
         self.title: str = data.get("title")
         self.slug: str = data.get("slug_title")
@@ -87,16 +87,16 @@ class Season(Content):
         self.episode_count: int = data.get("number_of_episodes")
         self.series_id: str = data.get("series_id")
         self.series_slug: str = data.get("series_slug_title")
-        self.subtitle_locales: List[str] = data.get("subtitle_locales")
-        self.audio_locales: List[str] = data.get("audio_locales")
-        self.maturity_ratings: List[str] = data.get("maturity_ratings")
+        self.subtitle_locales: list[str] = data.get("subtitle_locales")
+        self.audio_locales: list[str] = data.get("audio_locales")
+        self.maturity_ratings: list[str] = data.get("maturity_ratings")
         self.is_simulcast: bool = data.get("is_simulcast")
         self.is_subbed: bool = data.get("is_subbed")
         self.is_dubbed: bool = data.get("is_dubbed")
         self.is_mature: bool = data.get("is_mature")
 
     @classmethod
-    def parse(cls, obj: Dict):
+    def parse(cls, obj: dict[Any, Any]):
         data = {}
         data.update(obj)
         if "season_metadata" in obj:

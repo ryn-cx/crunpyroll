@@ -5,11 +5,11 @@ import crunpyroll
 
 class GetSeries:
     async def get_series(
-        self: "crunpyroll.Client",
+        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
         series_id: str,
         *,
-        locale: str = None,
-    ) -> "types.Series":
+        locale: str | None = None,
+    ) -> types.Series:
         """
         Get informations about a series.
 

@@ -1,7 +1,7 @@
 from .cms import CMS
 from .obj import Object
 
-from typing import Dict
+from typing import Any
 
 
 class SessionIndex(Object):
@@ -16,7 +16,7 @@ class SessionIndex(Object):
         cms_web (:obj:`~crunpyroll.types.CMS`)
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.cms: CMS = CMS(data.get("cms"))
         self.cms_beta: CMS = CMS(data.get("cms_beta"))
         self.cms_web: CMS = CMS(data.get("cms_web"))

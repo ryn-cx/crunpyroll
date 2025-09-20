@@ -5,7 +5,7 @@ import crunpyroll
 
 class GetLicense:
     async def get_license(
-        self: "crunpyroll.Client",
+        self: crunpyroll.Client,  # type: ignore[reportGeneralTypeIssues]
         media_id: str,
         *,
         challenge: bytes,

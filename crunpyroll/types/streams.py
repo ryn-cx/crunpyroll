@@ -2,7 +2,7 @@ from .obj import Object
 from .subtitles import SubtitlesStream
 from .hardsub import HardsubStream
 
-from typing import List, Dict
+from typing import Any
 
 
 class MediaStreams(Object):
@@ -29,16 +29,16 @@ class MediaStreams(Object):
             List of available hardsubs stream.
     """
 
-    def __init__(self, data: Dict):
+    def __init__(self, data: dict[Any, Any]):
         self.media_id: str = data.get("media_id")
         self.audio_locale: str = data.get("audioLocale")
         self.url: str = data.get("url")
         self.token: str = data.get("token")
-        self.subtitles: List["SubtitlesStream"] = data.get("subtitles")
-        self.hardsubs: List["HardsubStream"] = data.get("hardsub")
+        self.subtitles: list["SubtitlesStream"] = data.get("subtitles")
+        self.hardsubs: list["HardsubStream"] = data.get("hardsub")
 
     @classmethod
-    def parse(cls, obj: Dict, media_id: str):
+    def parse(cls, obj: dict[Any, Any], media_id: str):
         data = {}
         data.update(obj)
         data["subtitles"] = [
