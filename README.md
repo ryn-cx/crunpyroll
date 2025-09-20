@@ -6,7 +6,18 @@
 
 ---
 
+#### Fork Features
+- Updated deprecated proxies parameter that caused crunpyroll to crash.
+- Added the ability to call the API anonymously when no username and password are supplied.
+- Added support for the browse endpoint to get newly added anime.
+- Separated downloading and parsing for more versatility.
+- Added basic unit tests.
+- Modernized type hints.
+
+---
+
 #### Features 🔥
+
 - Fully async ([httpx](https://www.python-httpx.org/))
 - Python 3.7+ support
 - Clean and modern code
@@ -15,6 +26,7 @@
 ---
 
 #### Installation ⚙️
+
 ```bash
 # Using Git
 pip install -U git+https://github.com/stefanodvx/crunpyroll
@@ -26,11 +38,13 @@ pip install -U crunpyroll
 ---
 
 #### Documentation 📄
+
 The documentation page undergoes automatic updates with each push. To access the latest documentation page, kindly refer to our [Read the Docs](https://crunpyroll.readthedocs.io/) project.
 
 ---
 
 #### Example Code ❓
+
 ```py3
 import crunpyroll
 import asyncio
@@ -57,9 +71,11 @@ asyncio.run(main())
 ---
 
 #### Downloading content 🔑
+
 Crunchyroll has recently implemented the Widevine and PlayReady **Digital Rights Management (DRM)** systems, which has led to challenges for certain users attempting to download content from the platform.
 
 Subsequently, the following code provides an illustrative example of obtaining decryption keys through the utilities of the [pywidevine](https://github.com/devine-dl/pywidevine) library and an L3 Content Decryption Module (CDM).
+
 ```py3
 from pywidevine.cdm import Cdm
 from pywidevine.pssh import PSSH
@@ -91,9 +107,12 @@ await client.delete_active_stream(
     token=streams.token
 )
 ```
+
 Output:
+
 ```bash
 056ec1ca849e350181753cacc9bd404b:2307a188ecd8de3859b71b30791f171d
 ```
+
 > [!TIP]
 > Decryption keys are universally applicable to both video and audio streams, maintaining consistency across all available formats.
