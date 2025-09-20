@@ -10,6 +10,7 @@
 - Updated deprecated proxies parameter that caused crunpyroll to crash.
 - Added the ability to call the API anonymously when no username and password are supplied.
 - Added support for the browse endpoint to get newly added anime.
+- Dynamically update the public token instead of using a hardcoded value.
 - Separated downloading and parsing for more versatility.
 - Added basic unit tests.
 - Modernized type hints.
