@@ -10,6 +10,7 @@ class ClientProtocol(Protocol):
     session: Session
     locale: str
     http: httpx.AsyncClient
+    preferred_audio_language: str
 
     async def api_request(
         self,
