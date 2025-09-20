@@ -18,7 +18,7 @@ from typing import (
 
 import httpx
 import json
-
+from httpx._types import ProxyTypes
 class Client(Object, Methods):
     """Initialize Crunchyroll Client
     
@@ -40,7 +40,7 @@ class Client(Object, Methods):
             The device name to use (Crunchyroll app uses [About phone → Device name] field).
         device_type (``str``, *optional*):
             The device type to use (Crunchyroll app uses Manufacturer + Model).
-        proxies (``str`` | ``dict``, *optional*):
+        proxy (``URL`` | ``str`` | ``Proxy``, *optional*):
             Proxies for HTTP requests.
             Default to None
     """
@@ -54,7 +54,7 @@ class Client(Object, Methods):
         device_id: str = DEVICE_ID,
         device_name: str = DEVICE_NAME,
         device_type: str = DEVICE_TYPE,
-        proxies: Union[Dict, str] = None
+        proxy: ProxyTypes | None = None
     ) -> None:
         self.email: str = email
         self.password: str = password
@@ -64,7 +64,7 @@ class Client(Object, Methods):
         self.device_name: str = device_name
         self.device_type: str = device_type
 
-        self.http = httpx.AsyncClient(proxies=proxies, timeout=15)
+        self.http = httpx.AsyncClient(proxy=proxy, timeout=15)
         self.session = Session(self)
 
     async def start(self):
