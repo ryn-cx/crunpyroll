@@ -39,10 +39,7 @@ class Search(ClientProtocol):
                 Raw response data from the API.
         """
         await self.session.retrieve()
-        # TODO: Are the types trustworthy enough where isinstance can be removed?
-        filters_string = ",".join(
-            filter.value for filter in filters if isinstance(filter, enums.ContentType)
-        )
+        filters_string = ",".join(filter.value for filter in filters)
         response = await self.api_request(
             method="GET",
             endpoint="content/v2/discover/search",
@@ -92,5 +89,7 @@ class Search(ClientProtocol):
             :obj:`~crunpyroll.types.SearchQuery`:
                 On success, query of results is returned.
         """
-        response = await self.download_search(query, max_results=max_results, locale=locale, filters=filters)
+        response = await self.download_search(
+            query, max_results=max_results, locale=locale, filters=filters
+        )
         return types.SearchQuery.parse(response)
